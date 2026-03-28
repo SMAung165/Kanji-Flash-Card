@@ -1,5 +1,7 @@
 package com.soemoe.kanjiflashcard.models;
 
+import com.soemoe.kanjiflashcard.services.KanjiDatabase;
+
 import java.util.ArrayList;
 
 public class KanjiCard extends Flashcard {
@@ -7,6 +9,10 @@ public class KanjiCard extends Flashcard {
     private String jlptLevel;
 
     //constructors
+    public KanjiCard() {
+        this(null, null, null, null);
+    }
+
     public KanjiCard(String word, String meaning, String correctReading, String jlptLevel) {
         super(word, meaning);
         this.correctReading = correctReading;
@@ -18,6 +24,17 @@ public class KanjiCard extends Flashcard {
         return correctReading;
     }
 
+    public String getJlptLevel() {
+        return jlptLevel;
+    }
+
+    //setters
+    public void setupKanjiCard(String word, String meaning, String correctReading) {
+        this.correctReading = correctReading;
+        this.meaning = meaning;
+        this.word = word;
+    }
+
     //methods
     @Override
     public void showCard() {
@@ -27,8 +44,11 @@ public class KanjiCard extends Flashcard {
 
     @Override
     public void showMultipleChoices(ArrayList<String> choices) {
-        for (int i = 1; i <= choices.size(); i++) {
-            System.out.printf("%d. %s \n", i, choices.get(i));
+        for (int i = 0; i < choices.size(); i++) {
+            System.out.printf("%d. %s \n", i + 1, choices.get(i));
         }
     }
+
+
+
 }
