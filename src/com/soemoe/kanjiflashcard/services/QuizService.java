@@ -1,6 +1,5 @@
 package com.soemoe.kanjiflashcard.services;
 import com.soemoe.kanjiflashcard.contracts.Reviewable;
-import com.soemoe.kanjiflashcard.models.Kanji;
 import com.soemoe.kanjiflashcard.models.KanjiCard;
 
 import java.util.ArrayList;
@@ -26,19 +25,11 @@ public class QuizService implements Reviewable {
     //methods
     @Override
     public void startQuiz() {
-        KanjiCard kanjiCard = new KanjiCard();
-        KanjiDatabase kanjiDatabase = new KanjiDatabase();
-        Kanji randomKanji = getRandomKanji(kanjiDatabase);
-        kanjiCard.setupKanjiCard(randomKanji.getKanjiChar(), randomKanji.getMeaning(), randomKanji.getKunyomi());
-        kanjiCard.showCard();
-//        kanjiCard.showMultipleChoices(makeRandomKanjiList(kanjiDatabase));
     }
 
     @Override
     public void verifyAnswer() {
-        Scanner userInput = new Scanner(System.in);
         System.out.print("What's the answer?: ");
-        userInput.nextLine();
     }
 
     @Override
@@ -50,25 +41,5 @@ public class QuizService implements Reviewable {
     public void showMistakes() {
 
     }
-
-    public static Kanji getRandomKanji(KanjiDatabase kanjiDatabase) {
-        int randomIndexNumber = (int) (Math.random() * (kanjiDatabase.getKanjis().size()));
-        return kanjiDatabase.getKanjis().get(randomIndexNumber);
-    }
-
-    public ArrayList<String> makeRandomKanjiList(KanjiDatabase kanjiDatabase) {
-        ArrayList<String> choices = new ArrayList<>();
-        int i = 0;
-        String randomKunReading;
-        while (i != 3) {
-            randomKunReading = getRandomKanji(kanjiDatabase).getKunyomi();
-            if (!choices.contains(randomKunReading)) {
-                choices.add(randomKunReading);
-                i++;
-            }
-        }
-        return choices;
-    }
-
 
 }

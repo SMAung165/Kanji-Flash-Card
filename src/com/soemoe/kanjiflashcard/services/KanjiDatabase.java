@@ -11,22 +11,29 @@ public class KanjiDatabase {
     //constructors
     public KanjiDatabase() {
         kanjis.addAll(Arrays.asList(
-                new Kanji("対", "セイ", "まつりごと", "politics, government"),
-                new Kanji("合", "ゴウ", "あ(う)", "fit, suit, join"),
-                new Kanji("市", "シ", "いち", "market, city, town"),
-                new Kanji("戦", "セン", "たたか(う)", "war, battle, match"),
-                new Kanji("回", "カイ","まわ(す)","imes, round, revolve, counter")
+                new Kanji("対", "セイ", "まつりごと", "politics, government", "N3"),
+                new Kanji("合", "ゴウ", "あ(う)", "fit, suit, join", "N3"),
+                new Kanji("市", "シ", "いち", "market, city, town", "N3"),
+                new Kanji("戦", "セン", "たたか(う)", "war, battle, match", "N3"),
+                new Kanji("回", "カイ", "まわ(す)", "times, round, revolve, counter", "N3"),
+                new Kanji("日", "ニチ, ジツ", "ひ, -び, -か", "day, sun, Japan, counter for days", "N5"),
+                new Kanji("人", "ジン、 ニン", "ひと", "person", "N5")
         ));
     }
 
     //getters
 
-    public ArrayList<Kanji> getKanjis() {
-        return kanjis;
+    //methods
+    public ArrayList<Kanji> getKanjiByLevel(String level) {
+        ArrayList<Kanji> kanjiByLevel = new ArrayList<>();
+        for (Kanji kanji : kanjis) {
+            if (kanji.getKanjiLevel().equals(level)) {
+                kanjiByLevel.add(kanji);
+            }
+        }
+        return kanjiByLevel;
     }
 
-
-    //methods
     public String getKanjiChar(int index) {
         return kanjis.get(index).getKanjiChar();
     }

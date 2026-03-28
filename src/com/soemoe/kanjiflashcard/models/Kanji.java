@@ -5,13 +5,15 @@ public class Kanji {
     private String onyomi;
     private String kunyomi;
     private String meaning;
+    private String kanjiLevel;
 
     //constructor
-    public Kanji(String kanji, String onyomi, String kunyomi, String meaning) {
+    public Kanji(String kanji, String onyomi, String kunyomi, String meaning, String kanjiLevel) {
         this.kanji = kanji;
         this.onyomi = onyomi;
         this.kunyomi = kunyomi;
         this.meaning = meaning;
+        this.kanjiLevel = kanjiLevel;
     }
 
     //getter
@@ -31,5 +33,7 @@ public class Kanji {
         return meaning;
     }
 
-    //methods
+    public String getKanjiLevel() {
+        return kanjiLevel;
+    }
 }
