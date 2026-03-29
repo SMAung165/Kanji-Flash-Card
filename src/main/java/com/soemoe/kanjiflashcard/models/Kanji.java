@@ -30,15 +30,15 @@ public class Kanji {
     }
 
     public String getOnyomi() {
-        return onyomi == null || onyomi.isEmpty() ? "none" : onyomi.get(0);
+        return onyomi == null || onyomi.isEmpty() ? "" : onyomi.get(0);
     }
 
     public String getKunyomi() {
-        return kunyomi == null || kunyomi.isEmpty() ? "none" : kunyomi.get(0);
+        return kunyomi == null || kunyomi.isEmpty() ? "" : kunyomi.get(0);
     }
 
     public String getMeaning() {
-        return meaning == null || meaning.isEmpty() ? "none" : meaning.get(0);
+        return meaning == null || meaning.isEmpty() ? "" : meaning.get(0);
     }
 
     public String getKanjiLevel() {

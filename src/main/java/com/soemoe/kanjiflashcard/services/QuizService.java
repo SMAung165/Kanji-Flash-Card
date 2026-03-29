@@ -12,6 +12,7 @@ public class QuizService implements Reviewable {
     private KanjiCard currentCard;
     private ArrayList<KanjiCard> incorrectCards;
     private ArrayList<KanjiCard> quizDeck;
+    private final KanjiDatabase kanjiDatabase;
 
     private final int kanjiCount;
     private int score;
@@ -24,14 +25,18 @@ public class QuizService implements Reviewable {
         this.kanjiCount = KanjiCount;
         this.jlptLevel = jlptLevel;
         this.score = 0;
-        deckPreparation();
+        KanjiDatabase kanjiDatabase = new KanjiDatabase(jlptLevel);
+        this.kanjiDatabase = kanjiDatabase;
+        deckPreparation(kanjiDatabase);
     }
 
     //methods
     @Override
     public void startQuiz() {
-        for(KanjiCard card : quizDeck) {
+        for (KanjiCard card : quizDeck) {
+            currentCard = card;
             card.showCard();
+            card.showMultipleChoices(generateRandomChoices(kanjiDatabase));
         }
     }
 
@@ -50,8 +55,8 @@ public class QuizService implements Reviewable {
     }
 
     //internal methods
-    private void deckPreparation() {
-        KanjiDatabase kanjiDatabase = new KanjiDatabase(jlptLevel);
+    private void deckPreparation(KanjiDatabase kanjiDatabase) {
+
         Kanji randomKanji;
         KanjiCard randomKanjiCard;
         ArrayList<KanjiCard> deck = new ArrayList<>();
@@ -59,8 +64,11 @@ public class QuizService implements Reviewable {
 
         int i = 0;
         while (i != numberOfKanjiByUserInput) {
-            randomKanji = getRandomKanjiByLevel(kanjiDatabase);
-            randomKanjiCard = new KanjiCard(randomKanji.getKanjiChar(), randomKanji.getMeaning(), randomKanji.getKunyomi());
+            randomKanji = getRandomKanji(kanjiDatabase);
+            randomKanjiCard = new KanjiCard(
+                    randomKanji.getKanjiChar(),
+                    randomKanji.getMeaning(),
+                    randomKanji.getKunyomi() + ", " + randomKanji.getOnyomi());
 
             if (!isKanjiCardDuplicated(randomKanjiCard, deck)) {
                 deck.add(randomKanjiCard);
@@ -70,7 +78,23 @@ public class QuizService implements Reviewable {
         quizDeck = deck;
     }
 
-    private Kanji getRandomKanjiByLevel(KanjiDatabase kanjiDatabase) {
+    private ArrayList<String> generateRandomChoices(KanjiDatabase kanjiDatabase) {
+        ArrayList<String> randomReadingChoices = new ArrayList<>();
+        String randomReading;
+        int i = 0;
+        while (i != 3) {
+            randomReading = getRandomKanji(kanjiDatabase).getKunyomi() + ", " + getRandomKanji(kanjiDatabase).getOnyomi();
+            if (!randomReadingChoices.contains(randomReading)) {
+                randomReadingChoices.add(randomReading);
+                i++;
+            }
+        }
+        randomReadingChoices.add(currentCard.getCorrectReading());
+        return randomReadingChoices;
+    }
+
+    //utility methods
+    private Kanji getRandomKanji(KanjiDatabase kanjiDatabase) {
         int randomIndexNumber = (int) (Math.random() * (kanjiDatabase.getKanjis().size()));
         return kanjiDatabase.getKanjis().get(randomIndexNumber);
     }

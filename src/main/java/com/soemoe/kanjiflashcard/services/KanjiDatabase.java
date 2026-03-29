@@ -21,7 +21,7 @@ public class KanjiDatabase {
 
     //methods
     private ArrayList<Kanji> getKanjiByLevel(String level) {
-        JsonLoader loadKanjiList = new JsonLoader(String.format("src/main/resources/kanji_%s.json", level));
+        JsonLoader loadKanjiList = new JsonLoader(String.format("kanji_%s.json", level));
         return new ArrayList<>(Arrays.asList(loadKanjiList.getKanjiList()));
     }
 }
