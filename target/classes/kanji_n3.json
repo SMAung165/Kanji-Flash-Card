@@ -1,0 +1,6730 @@
+[
+  {
+    "kanji": "与",
+    "on_readings": [
+      "ヨ"
+    ],
+    "kun_readings": [
+      "あずか.る",
+      "あた.える",
+      "くみ.する",
+      "ともに"
+    ],
+    "meanings": [
+      "award",
+      "bestow",
+      "cause",
+      "gift",
+      "give",
+      "godsend",
+      "impart",
+      "participate in",
+      "provide"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "両",
+    "on_readings": [
+      "リョウ"
+    ],
+    "kun_readings": [
+      "てる",
+      "ふたつ"
+    ],
+    "meanings": [
+      "both",
+      "counter for carriages (e.g., in a train)",
+      "old Japanese coin",
+      "two"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "乗",
+    "on_readings": [
+      "ショウ",
+      "ジョウ"
+    ],
+    "kun_readings": [
+      "-の.り",
+      "の.せる",
+      "の.る"
+    ],
+    "meanings": [
+      "board",
+      "counter for vehicles",
+      "join",
+      "mount",
+      "multiplication",
+      "power",
+      "record",
+      "ride"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "予",
+    "on_readings": [
+      "シャ",
+      "ヨ"
+    ],
+    "kun_readings": [
+      "あらかじ.め"
+    ],
+    "meanings": [
+      "I",
+      "beforehand",
+      "myself",
+      "previous"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "争",
+    "on_readings": [
+      "ソウ"
+    ],
+    "kun_readings": [
+      "あらそ.う",
+      "いか.でか"
+    ],
+    "meanings": [
+      "argue",
+      "contend",
+      "dispute"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "互",
+    "on_readings": [
+      "ゴ"
+    ],
+    "kun_readings": [
+      "かたみ.に",
+      "たが.い"
+    ],
+    "meanings": [
+      "mutually",
+      "reciprocally",
+      "together"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "亡",
+    "on_readings": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun_readings": [
+      "な.い",
+      "な.き-",
+      "ほろ.びる",
+      "ほろ.ぶ",
+      "ほろ.ぼす"
+    ],
+    "meanings": [
+      "deceased",
+      "dying",
+      "perish",
+      "the late"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "交",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "-か.う",
+      "か.わす",
+      "かわ.す",
+      "こもごも",
+      "ま.ざる",
+      "ま.じる",
+      "ま.ぜる",
+      "まじ.える",
+      "まじ.る",
+      "まじ.わる"
+    ],
+    "meanings": [
+      "association",
+      "coming \u0026 going",
+      "mingle",
+      "mixing"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "他",
+    "on_readings": [
+      "タ"
+    ],
+    "kun_readings": [
+      "ほか"
+    ],
+    "meanings": [
+      "another",
+      "other",
+      "the others"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "付",
+    "on_readings": [
+      "フ"
+    ],
+    "kun_readings": [
+      "-つ.き",
+      "-つ.け",
+      "-つ.ける",
+      "-つき",
+      "-づ.き",
+      "-づ.く",
+      "-づ.け",
+      "-づ.ける",
+      "-づき",
+      "-づけ",
+      "つ.き",
+      "つ.く",
+      "つ.け",
+      "つ.け-",
+      "つ.ける"
+    ],
+    "meanings": [
+      "adhere",
+      "append",
+      "attach",
+      "refer to"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "件",
+    "on_readings": [
+      "ケン"
+    ],
+    "kun_readings": [
+      "くだん"
+    ],
+    "meanings": [
+      "affair",
+      "case",
+      "item",
+      "matter"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "任",
+    "on_readings": [
+      "ニン"
+    ],
+    "kun_readings": [
+      "まか.す",
+      "まか.せる"
+    ],
+    "meanings": [
+      "appoint",
+      "duty",
+      "entrust to",
+      "responsibility",
+      "term"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "伝",
+    "on_readings": [
+      "テン",
+      "デン"
+    ],
+    "kun_readings": [
+      "-づた.い",
+      "つた.う",
+      "つた.える",
+      "つた.わる",
+      "つだ.う",
+      "つて"
+    ],
+    "meanings": [
+      "communicate",
+      "follow",
+      "go along",
+      "legend",
+      "report",
+      "tradition",
+      "transmit",
+      "walk along"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "似",
+    "on_readings": [
+      "ジ"
+    ],
+    "kun_readings": [
+      "に.る",
+      "ひ.る"
+    ],
+    "meanings": [
+      "becoming",
+      "counterfeit",
+      "imitate",
+      "resemble",
+      "suitable"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "位",
+    "on_readings": [
+      "イ"
+    ],
+    "kun_readings": [
+      "くらい",
+      "ぐらい"
+    ],
+    "meanings": [
+      "about",
+      "crown",
+      "grade",
+      "rank",
+      "some",
+      "throne"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "余",
+    "on_readings": [
+      "ヨ"
+    ],
+    "kun_readings": [
+      "あま.す",
+      "あま.り",
+      "あま.る",
+      "あんま.り"
+    ],
+    "meanings": [
+      "myself",
+      "other",
+      "remainder",
+      "surplus",
+      "too much"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "例",
+    "on_readings": [
+      "レイ"
+    ],
+    "kun_readings": [
+      "たと.える"
+    ],
+    "meanings": [
+      "custom",
+      "example",
+      "precedent",
+      "usage"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "供",
+    "on_readings": [
+      "キョウ",
+      "ク",
+      "クウ",
+      "グ"
+    ],
+    "kun_readings": [
+      "-ども",
+      "そな.える",
+      "とも"
+    ],
+    "meanings": [
+      "accompany",
+      "offer",
+      "present",
+      "serve (meal)",
+      "submit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "便",
+    "on_readings": [
+      "ビン",
+      "ベン"
+    ],
+    "kun_readings": [
+      "たよ.り"
+    ],
+    "meanings": [
+      "chance",
+      "convenience",
+      "excrement",
+      "facility",
+      "feces",
+      "letter"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "係",
+    "on_readings": [
+      "ケイ"
+    ],
+    "kun_readings": [
+      "-がかり",
+      "かか.る",
+      "かか.わる",
+      "かかり"
+    ],
+    "meanings": [
+      "concern oneself",
+      "connection",
+      "duty",
+      "person in charge"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "信",
+    "on_readings": [
+      "シン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "faith",
+      "fidelity",
+      "trust",
+      "truth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "倒",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "-だお.れ",
+      "さかさ",
+      "さかさま",
+      "さかしま",
+      "たお.す",
+      "たお.れる"
+    ],
+    "meanings": [
+      "break down",
+      "collapse",
+      "drop",
+      "fall",
+      "overthrow"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "候",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "そうろう"
+    ],
+    "meanings": [
+      "climate",
+      "expect",
+      "season",
+      "wait for",
+      "weather"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "値",
+    "on_readings": [
+      "チ"
+    ],
+    "kun_readings": [
+      "あたい",
+      "ね"
+    ],
+    "meanings": [
+      "cost",
+      "price",
+      "value"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "偉",
+    "on_readings": [
+      "イ"
+    ],
+    "kun_readings": [
+      "えら.い"
+    ],
+    "meanings": [
+      "admirable",
+      "conceited",
+      "excellent",
+      "famous",
+      "greatness",
+      "remarkable"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "側",
+    "on_readings": [
+      "ソク"
+    ],
+    "kun_readings": [
+      "かわ",
+      "がわ",
+      "そば"
+    ],
+    "meanings": [
+      "lean",
+      "oppose",
+      "regret",
+      "side"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "偶",
+    "on_readings": [
+      "グウ"
+    ],
+    "kun_readings": [
+      "たま"
+    ],
+    "meanings": [
+      "accidentally",
+      "couple",
+      "even number",
+      "man \u0026 wife",
+      "same kind"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "備",
+    "on_readings": [
+      "ビ"
+    ],
+    "kun_readings": [
+      "そな.える",
+      "そな.わる",
+      "つぶさ.に"
+    ],
+    "meanings": [
+      "equip",
+      "preparation",
+      "provision"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "働",
+    "on_readings": [
+      "ドウ"
+    ],
+    "kun_readings": [
+      "はたら.く"
+    ],
+    "meanings": [
+      "(kokuji)",
+      "work"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "優",
+    "on_readings": [
+      "ウ",
+      "ユウ"
+    ],
+    "kun_readings": [
+      "すぐ.れる",
+      "まさ.る",
+      "やさ.しい"
+    ],
+    "meanings": [
+      "actor",
+      "excel",
+      "gentleness",
+      "superiority",
+      "surpass",
+      "tenderness"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "光",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "ひか.る",
+      "ひかり"
+    ],
+    "meanings": [
+      "light",
+      "ray"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "全",
+    "on_readings": [
+      "ゼン"
+    ],
+    "kun_readings": [
+      "すべ.て",
+      "まった.く"
+    ],
+    "meanings": [
+      "all",
+      "complete",
+      "entire",
+      "fulfill",
+      "whole"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "共",
+    "on_readings": [
+      "キョウ"
+    ],
+    "kun_readings": [
+      "-ども",
+      "とも",
+      "とも.に"
+    ],
+    "meanings": [
+      "alike",
+      "all",
+      "and",
+      "both",
+      "neither",
+      "together",
+      "with"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "具",
+    "on_readings": [
+      "グ"
+    ],
+    "kun_readings": [
+      "そな.える",
+      "つぶさ.に"
+    ],
+    "meanings": [
+      "counter for armor, suits, sets of furniture",
+      "ingredients",
+      "means",
+      "possess",
+      "tool",
+      "utensil"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "内",
+    "on_readings": [
+      "ダイ",
+      "ナイ"
+    ],
+    "kun_readings": [
+      "うち"
+    ],
+    "meanings": [
+      "among",
+      "between",
+      "home",
+      "house",
+      "inside",
+      "within"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "冷",
+    "on_readings": [
+      "レイ"
+    ],
+    "kun_readings": [
+      "さ.ます",
+      "さ.める",
+      "つめ.たい",
+      "ひ.える",
+      "ひ.や",
+      "ひ.やかす",
+      "ひ.やす",
+      "ひ.ややか"
+    ],
+    "meanings": [
+      "chill",
+      "cold (beer, person)",
+      "cool"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "処",
+    "on_readings": [
+      "ショ"
+    ],
+    "kun_readings": [
+      "-こ",
+      "お.る",
+      "ところ"
+    ],
+    "meanings": [
+      "act",
+      "behave",
+      "condemn",
+      "deal with",
+      "dispose",
+      "manage",
+      "place",
+      "sentence"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "列",
+    "on_readings": [
+      "レ",
+      "レツ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "column",
+      "file",
+      "rank",
+      "row",
+      "tier"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "初",
+    "on_readings": [
+      "ショ"
+    ],
+    "kun_readings": [
+      "-そ.める",
+      "-ぞ.め",
+      "うい-",
+      "はじ.め",
+      "はじ.めて",
+      "はつ",
+      "はつ-"
+    ],
+    "meanings": [
+      "beginning",
+      "first time"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "判",
+    "on_readings": [
+      "ハン",
+      "バン"
+    ],
+    "kun_readings": [
+      "わか.る"
+    ],
+    "meanings": [
+      "judgement",
+      "judgment",
+      "seal",
+      "signature",
+      "stamp"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "利",
+    "on_readings": [
+      "リ"
+    ],
+    "kun_readings": [
+      "き.く"
+    ],
+    "meanings": [
+      "advantage",
+      "benefit",
+      "profit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "到",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "いた.る"
+    ],
+    "meanings": [
+      "arrival",
+      "attain",
+      "proceed",
+      "reach",
+      "result in"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "制",
+    "on_readings": [
+      "セイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "law",
+      "rule",
+      "system"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "刻",
+    "on_readings": [
+      "コク"
+    ],
+    "kun_readings": [
+      "きざ.み",
+      "きざ.む"
+    ],
+    "meanings": [
+      "carving",
+      "chop",
+      "cut fine",
+      "engrave",
+      "hash",
+      "mince",
+      "time"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "割",
+    "on_readings": [
+      "カツ"
+    ],
+    "kun_readings": [
+      "さ.く",
+      "わ.り",
+      "わ.る",
+      "わ.れる",
+      "わり"
+    ],
+    "meanings": [
+      "comparatively",
+      "cut",
+      "divide",
+      "proportion",
+      "separate",
+      "split"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "加",
+    "on_readings": [
+      "カ"
+    ],
+    "kun_readings": [
+      "くわ.える",
+      "くわ.わる"
+    ],
+    "meanings": [
+      "Canada",
+      "add",
+      "addition",
+      "include",
+      "increase",
+      "join"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "助",
+    "on_readings": [
+      "ジョ"
+    ],
+    "kun_readings": [
+      "す.ける",
+      "すけ",
+      "たす.かる",
+      "たす.ける"
+    ],
+    "meanings": [
+      "assist",
+      "help",
+      "rescue"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "努",
+    "on_readings": [
+      "ド"
+    ],
+    "kun_readings": [
+      "つと.める"
+    ],
+    "meanings": [
+      "as much as possible",
+      "diligent",
+      "toil"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "労",
+    "on_readings": [
+      "ロウ"
+    ],
+    "kun_readings": [
+      "いた.ずき",
+      "いたわ.る",
+      "つか.れる",
+      "ねぎら",
+      "ねぎら.う",
+      "ろう.する"
+    ],
+    "meanings": [
+      "labor",
+      "reward for",
+      "thank for",
+      "toil",
+      "trouble"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "務",
+    "on_readings": [
+      "ム"
+    ],
+    "kun_readings": [
+      "つと.める"
+    ],
+    "meanings": [
+      "duties",
+      "task"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "勝",
+    "on_readings": [
+      "ショウ"
+    ],
+    "kun_readings": [
+      "-が.ち",
+      "か.つ",
+      "かつ",
+      "すぐ.れる",
+      "まさ.る"
+    ],
+    "meanings": [
+      "excel",
+      "prevail",
+      "victory",
+      "win"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "勤",
+    "on_readings": [
+      "キン",
+      "ゴン"
+    ],
+    "kun_readings": [
+      "-づと.め",
+      "いそ.しむ",
+      "つと.まる",
+      "つと.める"
+    ],
+    "meanings": [
+      "become employed",
+      "diligence",
+      "serve"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "化",
+    "on_readings": [
+      "カ",
+      "ケ"
+    ],
+    "kun_readings": [
+      "け.する",
+      "ば.かす",
+      "ば.ける",
+      "ふ.ける"
+    ],
+    "meanings": [
+      "-ization",
+      "change",
+      "delude",
+      "enchant",
+      "influence",
+      "take the form of"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "単",
+    "on_readings": [
+      "タン"
+    ],
+    "kun_readings": [
+      "ひとえ"
+    ],
+    "meanings": [
+      "merely",
+      "one",
+      "simple",
+      "single"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "危",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "あぶ.ない",
+      "あや.うい",
+      "あや.ぶむ"
+    ],
+    "meanings": [
+      "dangerous",
+      "fear",
+      "uneasy"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "原",
+    "on_readings": [
+      "ゲン"
+    ],
+    "kun_readings": [
+      "はら"
+    ],
+    "meanings": [
+      "field",
+      "meadow",
+      "original",
+      "plain",
+      "prairie",
+      "primitive",
+      "tundra",
+      "wilderness"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "参",
+    "on_readings": [
+      "サン",
+      "シン"
+    ],
+    "kun_readings": [
+      "まい-",
+      "まい.る",
+      "まじわる",
+      "みつ"
+    ],
+    "meanings": [
+      "be defeated",
+      "be madly in love",
+      "coming",
+      "die",
+      "going",
+      "nonplussed",
+      "participate",
+      "take part in",
+      "three (in documents)",
+      "visit",
+      "visiting"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "反",
+    "on_readings": [
+      "タン",
+      "ハン",
+      "ホ",
+      "ホン"
+    ],
+    "kun_readings": [
+      "-かえ.る",
+      "かえ.す",
+      "かえ.る",
+      "そ.らす",
+      "そ.る"
+    ],
+    "meanings": [
+      "anti-"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "収",
+    "on_readings": [
+      "シュウ"
+    ],
+    "kun_readings": [
+      "おさ.まる",
+      "おさ.める"
+    ],
+    "meanings": [
+      "income",
+      "obtain",
+      "pay",
+      "reap",
+      "store",
+      "supply"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "取",
+    "on_readings": [
+      "シュ"
+    ],
+    "kun_readings": [
+      "-ど.り",
+      "と.り",
+      "と.り-",
+      "と.る",
+      "とり"
+    ],
+    "meanings": [
+      "fetch",
+      "take",
+      "take up"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "受",
+    "on_readings": [
+      "ジュ"
+    ],
+    "kun_readings": [
+      "-う.け",
+      "う.かる",
+      "う.ける"
+    ],
+    "meanings": [
+      "accept",
+      "answer (phone)",
+      "catch",
+      "get",
+      "receive",
+      "take",
+      "undergo"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "号",
+    "on_readings": [
+      "ゴウ"
+    ],
+    "kun_readings": [
+      "さけ.ぶ",
+      "よびな"
+    ],
+    "meanings": [
+      "call",
+      "item",
+      "name",
+      "nickname",
+      "number",
+      "pseudonym",
+      "title"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "合",
+    "on_readings": [
+      "カッ",
+      "ガッ",
+      "ゴウ"
+    ],
+    "kun_readings": [
+      "-あ.い",
+      "-あ.う",
+      "-あ.わせる",
+      "-あい",
+      "あ.い",
+      "あ.う",
+      "あ.わす",
+      "あ.わせる",
+      "あい-"
+    ],
+    "meanings": [
+      "0.1",
+      "fit",
+      "join",
+      "suit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "向",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "-む.き",
+      "-む.け",
+      "む.い",
+      "む.かい",
+      "む.かう",
+      "む.く",
+      "む.ける",
+      "む.こう",
+      "む.こう-",
+      "むか.い",
+      "むこ"
+    ],
+    "meanings": [
+      "approach",
+      "beyond",
+      "confront",
+      "defy",
+      "facing",
+      "tend toward",
+      "yonder"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "君",
+    "on_readings": [
+      "クン"
+    ],
+    "kun_readings": [
+      "-ぎみ",
+      "きみ"
+    ],
+    "meanings": [
+      "male name suffix",
+      "mister",
+      "ruler",
+      "you"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "否",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "いな",
+      "いや"
+    ],
+    "meanings": [
+      "decline",
+      "deny",
+      "negate",
+      "no",
+      "noes",
+      "refuse"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "吸",
+    "on_readings": [
+      "キュウ"
+    ],
+    "kun_readings": [
+      "す.う"
+    ],
+    "meanings": [
+      "imbibe",
+      "inhale",
+      "sip",
+      "suck"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "吹",
+    "on_readings": [
+      "スイ"
+    ],
+    "kun_readings": [
+      "ふ.く"
+    ],
+    "meanings": [
+      "blow",
+      "breathe",
+      "emit",
+      "puff",
+      "smoke"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "告",
+    "on_readings": [
+      "コク"
+    ],
+    "kun_readings": [
+      "つ.げる"
+    ],
+    "meanings": [
+      "announce",
+      "inform",
+      "revelation",
+      "tell"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "呼",
+    "on_readings": [
+      "コ"
+    ],
+    "kun_readings": [
+      "よ.ぶ"
+    ],
+    "meanings": [
+      "call",
+      "call out to",
+      "invite"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "命",
+    "on_readings": [
+      "ミョウ",
+      "メイ"
+    ],
+    "kun_readings": [
+      "いのち"
+    ],
+    "meanings": [
+      "appoint",
+      "command",
+      "decree",
+      "destiny",
+      "fate",
+      "life"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "和",
+    "on_readings": [
+      "オ",
+      "カ",
+      "ワ"
+    ],
+    "kun_readings": [
+      "あ.える",
+      "なご.む",
+      "なご.やか",
+      "やわ.らぐ",
+      "やわ.らげる"
+    ],
+    "meanings": [
+      "Japan",
+      "Japanese style",
+      "harmony",
+      "peace",
+      "soften"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "商",
+    "on_readings": [
+      "ショウ"
+    ],
+    "kun_readings": [
+      "あきな.う"
+    ],
+    "meanings": [
+      "dealing in",
+      "make a deal",
+      "merchant",
+      "selling"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "喜",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "よろこ.ばす",
+      "よろこ.ぶ"
+    ],
+    "meanings": [
+      "rejoice",
+      "take pleasure in"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "回",
+    "on_readings": [
+      "エ",
+      "カイ"
+    ],
+    "kun_readings": [
+      "-まわ.し",
+      "-まわ.す",
+      "-まわ.り",
+      "-まわ.る",
+      "か.える",
+      "まわ.し-",
+      "まわ.す",
+      "まわ.る",
+      "もとお.る"
+    ],
+    "meanings": [
+      "-times",
+      "counter for occurrences",
+      "game",
+      "revolve",
+      "round"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "因",
+    "on_readings": [
+      "イン"
+    ],
+    "kun_readings": [
+      "ちな.む",
+      "よ.る"
+    ],
+    "meanings": [
+      "be associated with",
+      "be limited to",
+      "cause",
+      "depend on",
+      "factor"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "困",
+    "on_readings": [
+      "コン"
+    ],
+    "kun_readings": [
+      "こま.る"
+    ],
+    "meanings": [
+      "annoyed",
+      "become distressed",
+      "quandary"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "園",
+    "on_readings": [
+      "エン"
+    ],
+    "kun_readings": [
+      "その"
+    ],
+    "meanings": [
+      "farm",
+      "garden",
+      "park",
+      "yard"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "在",
+    "on_readings": [
+      "ザイ"
+    ],
+    "kun_readings": [
+      "あ.る"
+    ],
+    "meanings": [
+      "exist",
+      "located in",
+      "outskirts",
+      "suburbs"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "報",
+    "on_readings": [
+      "ホウ"
+    ],
+    "kun_readings": [
+      "むく.いる"
+    ],
+    "meanings": [
+      "news",
+      "report",
+      "retribution",
+      "reward"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "増",
+    "on_readings": [
+      "ゾウ"
+    ],
+    "kun_readings": [
+      "ふ.える",
+      "ふ.やす",
+      "ま.し",
+      "ま.す"
+    ],
+    "meanings": [
+      "add",
+      "augment",
+      "gain",
+      "increase",
+      "promote"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "声",
+    "on_readings": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "こえ",
+      "こわ-"
+    ],
+    "meanings": [
+      "voice"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "変",
+    "on_readings": [
+      "ヘン"
+    ],
+    "kun_readings": [
+      "か.える",
+      "か.わり",
+      "か.わる"
+    ],
+    "meanings": [
+      "change",
+      "strange",
+      "unusual"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "夢",
+    "on_readings": [
+      "ボウ",
+      "ム"
+    ],
+    "kun_readings": [
+      "くら.い",
+      "ゆめ",
+      "ゆめ.みる"
+    ],
+    "meanings": [
+      "dream",
+      "illusion",
+      "vision"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "太",
+    "on_readings": [
+      "タ",
+      "タイ"
+    ],
+    "kun_readings": [
+      "ふと.い",
+      "ふと.る"
+    ],
+    "meanings": [
+      "big around",
+      "plump",
+      "thick"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "夫",
+    "on_readings": [
+      "フ",
+      "フウ",
+      "ブ"
+    ],
+    "kun_readings": [
+      "おっと",
+      "それ"
+    ],
+    "meanings": [
+      "husband",
+      "man"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "失",
+    "on_readings": [
+      "シツ"
+    ],
+    "kun_readings": [
+      "う.せる",
+      "うしな.う"
+    ],
+    "meanings": [
+      "disadvantage",
+      "error",
+      "fault",
+      "lose",
+      "loss"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "好",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "い.い",
+      "この.む",
+      "す.く",
+      "よ.い"
+    ],
+    "meanings": [
+      "fond",
+      "like something",
+      "pleasing"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "妻",
+    "on_readings": [
+      "サイ"
+    ],
+    "kun_readings": [
+      "つま"
+    ],
+    "meanings": [
+      "spouse",
+      "wife"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "娘",
+    "on_readings": [
+      "ジョウ"
+    ],
+    "kun_readings": [
+      "こ",
+      "むすめ"
+    ],
+    "meanings": [
+      "daughter",
+      "girl"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "婚",
+    "on_readings": [
+      "コン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "marriage"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "婦",
+    "on_readings": [
+      "フ"
+    ],
+    "kun_readings": [
+      "よめ"
+    ],
+    "meanings": [
+      "bride",
+      "lady",
+      "wife",
+      "woman"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "存",
+    "on_readings": [
+      "ソン",
+      "ゾン"
+    ],
+    "kun_readings": [
+      "あ.る",
+      "たも.つ",
+      "と.う",
+      "ながら.える"
+    ],
+    "meanings": [
+      "be aware of",
+      "believe",
+      "exist",
+      "feel",
+      "suppose"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "宅",
+    "on_readings": [
+      "タク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "home",
+      "house",
+      "my husband",
+      "our house",
+      "residence"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "守",
+    "on_readings": [
+      "シュ",
+      "ス"
+    ],
+    "kun_readings": [
+      "-もり",
+      "かみ",
+      "まも.り",
+      "まも.る",
+      "もり"
+    ],
+    "meanings": [
+      "defend",
+      "guard",
+      "obey",
+      "protect"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "完",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "completion",
+      "end",
+      "perfect"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "官",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "bureaucrat",
+      "organ",
+      "the government"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "定",
+    "on_readings": [
+      "ジョウ",
+      "テイ"
+    ],
+    "kun_readings": [
+      "さだ.か",
+      "さだ.まる",
+      "さだ.める"
+    ],
+    "meanings": [
+      "decide",
+      "determine",
+      "establish",
+      "fix"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "実",
+    "on_readings": [
+      "シツ",
+      "ジツ"
+    ],
+    "kun_readings": [
+      "まこと",
+      "み",
+      "みち.る",
+      "みの",
+      "みの.る"
+    ],
+    "meanings": [
+      "fruit",
+      "nut",
+      "reality",
+      "seed",
+      "truth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "客",
+    "on_readings": [
+      "カク",
+      "キャク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "client",
+      "customer",
+      "guest",
+      "visitor"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "害",
+    "on_readings": [
+      "ガイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "harm",
+      "injury"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "容",
+    "on_readings": [
+      "ヨウ"
+    ],
+    "kun_readings": [
+      "い.れる"
+    ],
+    "meanings": [
+      "contain",
+      "form",
+      "looks"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "宿",
+    "on_readings": [
+      "シュク"
+    ],
+    "kun_readings": [
+      "やど",
+      "やど.す",
+      "やど.る"
+    ],
+    "meanings": [
+      "be pregnant",
+      "dwell",
+      "dwelling",
+      "home",
+      "inn",
+      "lodge",
+      "lodging",
+      "relay station"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "寄",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "-よ.り",
+      "よ.せる",
+      "よ.る"
+    ],
+    "meanings": [
+      "bring near",
+      "collect",
+      "draw near",
+      "forward",
+      "gather",
+      "send",
+      "stop in"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "富",
+    "on_readings": [
+      "フ",
+      "フウ"
+    ],
+    "kun_readings": [
+      "と.む",
+      "とみ"
+    ],
+    "meanings": [
+      "abundant",
+      "enrich",
+      "wealth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "寒",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [
+      "さむ.い"
+    ],
+    "meanings": [
+      "cold"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "寝",
+    "on_readings": [
+      "シン"
+    ],
+    "kun_readings": [
+      "い.ぬ",
+      "ね.かす",
+      "ね.る",
+      "みたまや",
+      "や.める"
+    ],
+    "meanings": [
+      "bed",
+      "lie down",
+      "remain unsold",
+      "rest",
+      "sleep"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "察",
+    "on_readings": [
+      "サツ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "guess",
+      "judge",
+      "presume",
+      "surmise",
+      "understand"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "対",
+    "on_readings": [
+      "タイ",
+      "ツイ"
+    ],
+    "kun_readings": [
+      "あいて",
+      "こた.える",
+      "そろ.い",
+      "つれあ.い",
+      "なら.ぶ",
+      "むか.う"
+    ],
+    "meanings": [
+      "anti-",
+      "compare",
+      "equal",
+      "even",
+      "opposite",
+      "versus",
+      "vis-a-vis"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "局",
+    "on_readings": [
+      "キョク"
+    ],
+    "kun_readings": [
+      "つぼね"
+    ],
+    "meanings": [
+      "affair",
+      "board",
+      "bureau",
+      "conclusion",
+      "court lady",
+      "her apartment",
+      "lady-in-waiting",
+      "office"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "居",
+    "on_readings": [
+      "キョ",
+      "コ"
+    ],
+    "kun_readings": [
+      "-い",
+      "い.る",
+      "お.る"
+    ],
+    "meanings": [
+      "exist",
+      "live with",
+      "reside",
+      "to be"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "差",
+    "on_readings": [
+      "サ"
+    ],
+    "kun_readings": [
+      "さ.し",
+      "さ.す"
+    ],
+    "meanings": [
+      "balance",
+      "difference",
+      "discrepancy",
+      "distinction",
+      "margin",
+      "variation"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "市",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [
+      "いち"
+    ],
+    "meanings": [
+      "city",
+      "market",
+      "town"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "師",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [
+      "いくさ"
+    ],
+    "meanings": [
+      "army (incl. counter)",
+      "exemplar",
+      "expert",
+      "master",
+      "model",
+      "teacher",
+      "war"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "席",
+    "on_readings": [
+      "セキ"
+    ],
+    "kun_readings": [
+      "むしろ"
+    ],
+    "meanings": [
+      "mat",
+      "occasion",
+      "place",
+      "seat"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "常",
+    "on_readings": [
+      "ジョウ"
+    ],
+    "kun_readings": [
+      "つね",
+      "とこ-"
+    ],
+    "meanings": [
+      "always",
+      "common",
+      "continually",
+      "long-lasting",
+      "normal",
+      "ordinary",
+      "regular",
+      "usual"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "平",
+    "on_readings": [
+      "ヒョウ",
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kun_readings": [
+      "たい.ら",
+      "たい.らげる",
+      "ひら"
+    ],
+    "meanings": [
+      "even",
+      "flat",
+      "peace"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "幸",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "さいわ.い",
+      "さち",
+      "しあわ.せ"
+    ],
+    "meanings": [
+      "blessing",
+      "fortune",
+      "happiness"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "幾",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "いく-",
+      "いく.つ",
+      "いく.ら"
+    ],
+    "meanings": [
+      "how far",
+      "how long",
+      "how many",
+      "how much",
+      "several",
+      "some"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "座",
+    "on_readings": [
+      "ザ"
+    ],
+    "kun_readings": [
+      "すわ.る"
+    ],
+    "meanings": [
+      "cushion",
+      "gathering",
+      "seat",
+      "sit",
+      "squat"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "庭",
+    "on_readings": [
+      "テイ"
+    ],
+    "kun_readings": [
+      "にわ"
+    ],
+    "meanings": [
+      "courtyard",
+      "garden",
+      "yard"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "式",
+    "on_readings": [
+      "シキ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "ceremony",
+      "expression",
+      "form",
+      "function",
+      "method",
+      "rite",
+      "style",
+      "system"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "引",
+    "on_readings": [
+      "イン"
+    ],
+    "kun_readings": [
+      "ひ.く",
+      "ひ.ける"
+    ],
+    "meanings": [
+      "admit",
+      "install",
+      "jerk",
+      "pull",
+      "quote",
+      "refer to",
+      "tug"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "当",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "あ.たり",
+      "あ.たる",
+      "あ.て",
+      "あ.てる",
+      "まさ.に",
+      "まさ.にべし"
+    ],
+    "meanings": [
+      "appropriate",
+      "himself",
+      "hit",
+      "right"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "形",
+    "on_readings": [
+      "ギョウ",
+      "ケイ"
+    ],
+    "kun_readings": [
+      "-がた",
+      "かた",
+      "かたち",
+      "なり"
+    ],
+    "meanings": [
+      "form",
+      "shape",
+      "style"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "役",
+    "on_readings": [
+      "エキ",
+      "ヤク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "campaign",
+      "drafted labor",
+      "duty",
+      "office",
+      "role",
+      "service",
+      "war"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "彼",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "か.の",
+      "かの",
+      "かれ"
+    ],
+    "meanings": [
+      "he",
+      "that",
+      "the"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "徒",
+    "on_readings": [
+      "ト"
+    ],
+    "kun_readings": [
+      "あだ",
+      "いたずら"
+    ],
+    "meanings": [
+      "emptiness",
+      "ephemeral thing",
+      "futility",
+      "gang",
+      "junior",
+      "on foot",
+      "party",
+      "people",
+      "set",
+      "uselessness",
+      "vanity"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "得",
+    "on_readings": [
+      "トク"
+    ],
+    "kun_readings": [
+      "う.る",
+      "え.る"
+    ],
+    "meanings": [
+      "able to",
+      "acquire",
+      "advantage",
+      "benefit",
+      "can",
+      "earn",
+      "find",
+      "gain",
+      "get",
+      "may",
+      "profit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "御",
+    "on_readings": [
+      "ギョ",
+      "ゴ"
+    ],
+    "kun_readings": [
+      "お-",
+      "おん-",
+      "み-"
+    ],
+    "meanings": [
+      "govern",
+      "honorable",
+      "manipulate"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "必",
+    "on_readings": [
+      "ヒツ"
+    ],
+    "kun_readings": [
+      "かなら.ず"
+    ],
+    "meanings": [
+      "certain",
+      "inevitable",
+      "invariably"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "忘",
+    "on_readings": [
+      "ボウ"
+    ],
+    "kun_readings": [
+      "わす.れる"
+    ],
+    "meanings": [
+      "forget"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "忙",
+    "on_readings": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun_readings": [
+      "いそが.しい",
+      "うれえるさま",
+      "おそ.れる",
+      "せわ.しい"
+    ],
+    "meanings": [
+      "busy",
+      "occupied",
+      "restless"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "念",
+    "on_readings": [
+      "ネン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "attention",
+      "desire",
+      "feeling",
+      "idea",
+      "sense",
+      "thought",
+      "wish"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "怒",
+    "on_readings": [
+      "ド",
+      "ヌ"
+    ],
+    "kun_readings": [
+      "いか.る",
+      "おこ.る"
+    ],
+    "meanings": [
+      "angry",
+      "be offended"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "怖",
+    "on_readings": [
+      "フ",
+      "ホ"
+    ],
+    "kun_readings": [
+      "お.じる",
+      "おそ.れる",
+      "こわ.い",
+      "こわ.がる"
+    ],
+    "meanings": [
+      "be frightened",
+      "dreadful",
+      "fearful"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "性",
+    "on_readings": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "さが"
+    ],
+    "meanings": [
+      "gender",
+      "nature",
+      "sex"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "恐",
+    "on_readings": [
+      "キョウ"
+    ],
+    "kun_readings": [
+      "おそ.る",
+      "おそ.れる",
+      "おそ.ろしい",
+      "こわ.い",
+      "こわ.がる"
+    ],
+    "meanings": [
+      "awe",
+      "dread",
+      "fear"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "恥",
+    "on_readings": [
+      "チ"
+    ],
+    "kun_readings": [
+      "は.じらう",
+      "は.じる",
+      "は.ずかしい",
+      "はじ"
+    ],
+    "meanings": [
+      "dishonor",
+      "shame"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "息",
+    "on_readings": [
+      "ソク"
+    ],
+    "kun_readings": [
+      "いき"
+    ],
+    "meanings": [
+      "breath",
+      "coming to an end",
+      "interest (on money)",
+      "nuture",
+      "respiration",
+      "rest",
+      "son"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "悲",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "かな.しい",
+      "かな.しむ"
+    ],
+    "meanings": [
+      "deplore",
+      "grieve",
+      "regret",
+      "sad"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "情",
+    "on_readings": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "なさ.け"
+    ],
+    "meanings": [
+      "circumstances",
+      "emotion",
+      "facts",
+      "feelings",
+      "passion",
+      "sympathy"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "想",
+    "on_readings": [
+      "ソ",
+      "ソウ"
+    ],
+    "kun_readings": [
+      "おも.う"
+    ],
+    "meanings": [
+      "concept",
+      "idea",
+      "think",
+      "thought"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "愛",
+    "on_readings": [
+      "アイ"
+    ],
+    "kun_readings": [
+      "いと.しい",
+      "お.しむ",
+      "かな.しい",
+      "まな",
+      "め.でる"
+    ],
+    "meanings": [
+      "affection",
+      "favourite",
+      "love"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "感",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "emotion",
+      "feeling",
+      "sensation"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "慣",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [
+      "な.らす",
+      "な.れる"
+    ],
+    "meanings": [
+      "accustomed",
+      "become experienced",
+      "get used to"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "成",
+    "on_readings": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "-な.す",
+      "な.す",
+      "な.る"
+    ],
+    "meanings": [
+      "become",
+      "elapse",
+      "get",
+      "grow",
+      "reach",
+      "turn into"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "戦",
+    "on_readings": [
+      "セン"
+    ],
+    "kun_readings": [
+      "いくさ",
+      "おのの.く",
+      "そよ.ぐ",
+      "たたか.う",
+      "わなな.く"
+    ],
+    "meanings": [
+      "battle",
+      "match",
+      "war"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "戻",
+    "on_readings": [
+      "レイ"
+    ],
+    "kun_readings": [
+      "もど.す",
+      "もど.る"
+    ],
+    "meanings": [
+      "go backwards",
+      "re-",
+      "restore",
+      "resume",
+      "return",
+      "revert"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "所",
+    "on_readings": [
+      "ショ"
+    ],
+    "kun_readings": [
+      "-ところ",
+      "とこ",
+      "ところ",
+      "どころ"
+    ],
+    "meanings": [
+      "extent",
+      "place"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "才",
+    "on_readings": [
+      "サイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "cubic shaku",
+      "genius",
+      "years old"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "打",
+    "on_readings": [
+      "ダ",
+      "ダース"
+    ],
+    "kun_readings": [
+      "う.ち-",
+      "う.つ",
+      "ぶ.つ"
+    ],
+    "meanings": [
+      "dozen",
+      "hit",
+      "knock",
+      "pound",
+      "strike"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "払",
+    "on_readings": [
+      "ヒツ",
+      "フツ",
+      "ホツ"
+    ],
+    "kun_readings": [
+      "-はら.い",
+      "-ばら.い",
+      "はら.う"
+    ],
+    "meanings": [
+      "banish",
+      "clear out",
+      "dispose of",
+      "pay",
+      "prune"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "投",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "-な.げ",
+      "な.げる"
+    ],
+    "meanings": [
+      "abandon",
+      "discard",
+      "give up",
+      "hurl",
+      "invest in",
+      "join",
+      "launch into",
+      "sell at a loss",
+      "throw"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "折",
+    "on_readings": [
+      "シャク",
+      "セツ"
+    ],
+    "kun_readings": [
+      "-お.り",
+      "お.り",
+      "お.る",
+      "お.れる",
+      "おり"
+    ],
+    "meanings": [
+      "bend",
+      "break",
+      "fold",
+      "fracture",
+      "submit",
+      "yield"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "抜",
+    "on_readings": [
+      "ハイ",
+      "ハツ",
+      "バツ"
+    ],
+    "kun_readings": [
+      "-ぬ.く",
+      "ぬ.かす",
+      "ぬ.かる",
+      "ぬ.き",
+      "ぬ.く",
+      "ぬ.ける"
+    ],
+    "meanings": [
+      "extract",
+      "omit",
+      "pilfer",
+      "pull out",
+      "quote",
+      "remove",
+      "slip out"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "抱",
+    "on_readings": [
+      "ホウ"
+    ],
+    "kun_readings": [
+      "いだ.く",
+      "かか.える",
+      "だ.く"
+    ],
+    "meanings": [
+      "embrace",
+      "hold in arms",
+      "hug"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "押",
+    "on_readings": [
+      "オウ"
+    ],
+    "kun_readings": [
+      "お.さえる",
+      "お.し-",
+      "お.す",
+      "お.っ-",
+      "おさ.える"
+    ],
+    "meanings": [
+      "attach",
+      "check",
+      "do in spite of",
+      "press",
+      "push",
+      "seal",
+      "seize",
+      "shove",
+      "stop",
+      "subdue",
+      "weight"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "招",
+    "on_readings": [
+      "ショウ"
+    ],
+    "kun_readings": [
+      "まね.く"
+    ],
+    "meanings": [
+      "beckon",
+      "engage",
+      "invite",
+      "summon"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "指",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [
+      "-さ.し",
+      "さ.す",
+      "ゆび"
+    ],
+    "meanings": [
+      "finger",
+      "indicate",
+      "measure (ruler)",
+      "play (chess)",
+      "point to",
+      "put into"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "捕",
+    "on_readings": [
+      "ホ"
+    ],
+    "kun_readings": [
+      "つか.まえる",
+      "つか.まる",
+      "と.らえる",
+      "と.らわれる",
+      "と.る",
+      "とら.える",
+      "とら.われる"
+    ],
+    "meanings": [
+      "capture",
+      "catch"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "掛",
+    "on_readings": [
+      "カイ",
+      "ケイ"
+    ],
+    "kun_readings": [
+      "-か.かる",
+      "-か.け",
+      "-か.ける",
+      "-が.かり",
+      "-が.かる",
+      "-が.け",
+      "-がかり",
+      "か.かり",
+      "か.かる",
+      "か.け",
+      "か.ける",
+      "かかり"
+    ],
+    "meanings": [
+      "arrive at",
+      "depend",
+      "hang",
+      "pour",
+      "suspend",
+      "tax"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "探",
+    "on_readings": [
+      "タン"
+    ],
+    "kun_readings": [
+      "さが.す",
+      "さぐ.る"
+    ],
+    "meanings": [
+      "grope",
+      "look for",
+      "search"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "支",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [
+      "か.う",
+      "ささ.える",
+      "つか.える"
+    ],
+    "meanings": [
+      "branch",
+      "branch radical (no. 65)",
+      "support",
+      "sustain"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "放",
+    "on_readings": [
+      "ホウ"
+    ],
+    "kun_readings": [
+      "-っぱな.し",
+      "こ.く",
+      "はな.す",
+      "はな.つ",
+      "はな.れる",
+      "ほう.る"
+    ],
+    "meanings": [
+      "banish",
+      "emit",
+      "fire",
+      "liberate",
+      "release",
+      "set free",
+      "shoot"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "政",
+    "on_readings": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "まつりごと",
+      "まん"
+    ],
+    "meanings": [
+      "government",
+      "politics"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "敗",
+    "on_readings": [
+      "ハイ"
+    ],
+    "kun_readings": [
+      "やぶ.れる"
+    ],
+    "meanings": [
+      "defeat",
+      "failure",
+      "reversal"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "散",
+    "on_readings": [
+      "サン"
+    ],
+    "kun_readings": [
+      "-ち.らす",
+      "ち.らかす",
+      "ち.らかる",
+      "ち.らす",
+      "ち.らばる",
+      "ち.る",
+      "ばら",
+      "ばら.ける"
+    ],
+    "meanings": [
+      "disperse",
+      "scatter",
+      "spend",
+      "squander"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "数",
+    "on_readings": [
+      "サク",
+      "シュ",
+      "ス",
+      "スウ",
+      "ソク"
+    ],
+    "kun_readings": [
+      "かず",
+      "かぞ.える",
+      "しばしば",
+      "せ.める",
+      "わずらわ.しい"
+    ],
+    "meanings": [
+      "fate",
+      "figures",
+      "law",
+      "number",
+      "strength"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "断",
+    "on_readings": [
+      "ダン"
+    ],
+    "kun_readings": [
+      "ことわ.る",
+      "さだ.める",
+      "た.つ"
+    ],
+    "meanings": [
+      "apologize",
+      "cutting",
+      "decision",
+      "decline",
+      "dismiss",
+      "judgement",
+      "prohibit",
+      "refuse",
+      "severance",
+      "warn"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "易",
+    "on_readings": [
+      "イ",
+      "エキ"
+    ],
+    "kun_readings": [
+      "やさ.しい",
+      "やす.い"
+    ],
+    "meanings": [
+      "divination",
+      "easy",
+      "fortune-telling",
+      "ready to",
+      "simple"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "昔",
+    "on_readings": [
+      "シャク",
+      "セキ"
+    ],
+    "kun_readings": [
+      "むかし"
+    ],
+    "meanings": [
+      "antiquity",
+      "old times",
+      "once upon a time"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "昨",
+    "on_readings": [
+      "サク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "previous",
+      "yesterday"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "晩",
+    "on_readings": [
+      "バン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "night",
+      "nightfall"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "景",
+    "on_readings": [
+      "ケイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "scenery",
+      "view"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "晴",
+    "on_readings": [
+      "セイ"
+    ],
+    "kun_readings": [
+      "-ば.れ",
+      "は.らす",
+      "は.れ",
+      "は.れ-",
+      "は.れる"
+    ],
+    "meanings": [
+      "clear up"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "暗",
+    "on_readings": [
+      "アン"
+    ],
+    "kun_readings": [
+      "くら.い",
+      "くら.む",
+      "くれ.る"
+    ],
+    "meanings": [
+      "be blinded",
+      "darkness",
+      "disappear",
+      "grow dark",
+      "informal",
+      "shade"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "暮",
+    "on_readings": [
+      "ボ"
+    ],
+    "kun_readings": [
+      "く.らす",
+      "く.れる"
+    ],
+    "meanings": [
+      "evening",
+      "livelihood",
+      "make a living",
+      "season\u0027s end",
+      "spend time",
+      "twilight"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "曲",
+    "on_readings": [
+      "キョク"
+    ],
+    "kun_readings": [
+      "くま",
+      "ま.がる",
+      "ま.げる"
+    ],
+    "meanings": [
+      "bend",
+      "composition",
+      "crooked",
+      "curve",
+      "fault",
+      "injustice",
+      "lean",
+      "melody",
+      "music",
+      "perverse",
+      "pleasure"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "更",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "さら",
+      "さら.に",
+      "ふ.かす",
+      "ふ.ける"
+    ],
+    "meanings": [
+      "again",
+      "further",
+      "grow late",
+      "more and more",
+      "night watch",
+      "of course",
+      "renew",
+      "renovate",
+      "sit up late"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "最",
+    "on_readings": [
+      "サイ",
+      "シュ"
+    ],
+    "kun_readings": [
+      "つま",
+      "もっと.も"
+    ],
+    "meanings": [
+      "extreme",
+      "most",
+      "utmost"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "望",
+    "on_readings": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun_readings": [
+      "のぞ.む",
+      "もち"
+    ],
+    "meanings": [
+      "ambition",
+      "aspire to",
+      "desire",
+      "expect",
+      "full moon",
+      "hope"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "期",
+    "on_readings": [
+      "キ",
+      "ゴ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "date",
+      "period",
+      "term",
+      "time"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "未",
+    "on_readings": [
+      "ビ",
+      "ミ"
+    ],
+    "kun_readings": [
+      "いま.だ",
+      "ひつじ",
+      "ま.だ"
+    ],
+    "meanings": [
+      "1-3PM",
+      "eighth sign of Chinese zodiac",
+      "even now",
+      "hitherto",
+      "not yet",
+      "sign of the ram",
+      "still",
+      "un-"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "末",
+    "on_readings": [
+      "バツ",
+      "マツ"
+    ],
+    "kun_readings": [
+      "うら",
+      "うれ",
+      "すえ"
+    ],
+    "meanings": [
+      "close",
+      "end",
+      "posterity",
+      "powder",
+      "tip"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "束",
+    "on_readings": [
+      "ソク"
+    ],
+    "kun_readings": [
+      "たば",
+      "たば.ねる",
+      "つか",
+      "つか.ねる"
+    ],
+    "meanings": [
+      "bundle",
+      "control",
+      "govern",
+      "manage",
+      "ream",
+      "sheaf",
+      "tie in bundles"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "杯",
+    "on_readings": [
+      "ハイ"
+    ],
+    "kun_readings": [
+      "さかずき"
+    ],
+    "meanings": [
+      "counter for cupfuls",
+      "glass",
+      "toast",
+      "wine glass"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "果",
+    "on_readings": [
+      "カ"
+    ],
+    "kun_readings": [
+      "-は.たす",
+      "-は.てる",
+      "は.たす",
+      "は.て",
+      "は.てる",
+      "はた.す"
+    ],
+    "meanings": [
+      "achieve",
+      "carry out",
+      "complete",
+      "end",
+      "finish",
+      "fruit",
+      "reward",
+      "succeed"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "格",
+    "on_readings": [
+      "カク",
+      "キャク",
+      "コウ",
+      "ゴウ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "capacity",
+      "case (law, grammar)",
+      "character",
+      "rank",
+      "status"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "構",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "かま.う",
+      "かま.える"
+    ],
+    "meanings": [
+      "appearance",
+      "build",
+      "posture",
+      "set up",
+      "stance"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "様",
+    "on_readings": [
+      "ショウ",
+      "ヨウ"
+    ],
+    "kun_readings": [
+      "さま",
+      "さん"
+    ],
+    "meanings": [
+      "Esq.",
+      "manner",
+      "polite suffix",
+      "situation",
+      "way"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "権",
+    "on_readings": [
+      "ケン",
+      "ゴン"
+    ],
+    "kun_readings": [
+      "おもり",
+      "かり",
+      "はか.る"
+    ],
+    "meanings": [
+      "authority",
+      "power",
+      "rights"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "横",
+    "on_readings": [
+      "オウ"
+    ],
+    "kun_readings": [
+      "よこ"
+    ],
+    "meanings": [
+      "horizontal",
+      "perverse",
+      "side",
+      "sideways",
+      "unreasonable",
+      "width",
+      "woof"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "機",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "はた"
+    ],
+    "meanings": [
+      "airplane",
+      "efficacy",
+      "loom",
+      "machine",
+      "mechanism",
+      "occasion",
+      "opportunity",
+      "potency"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "欠",
+    "on_readings": [
+      "ケツ",
+      "ケン"
+    ],
+    "kun_readings": [
+      "か.く",
+      "か.ける"
+    ],
+    "meanings": [
+      "fail",
+      "gap",
+      "lack",
+      "yawning radical (no. 76)"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "次",
+    "on_readings": [
+      "シ",
+      "ジ"
+    ],
+    "kun_readings": [
+      "つ.ぐ",
+      "つぎ"
+    ],
+    "meanings": [
+      "next",
+      "order",
+      "sequence"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "欲",
+    "on_readings": [
+      "ヨク"
+    ],
+    "kun_readings": [
+      "ほ.しい",
+      "ほっ.する"
+    ],
+    "meanings": [
+      "covetousness",
+      "craving",
+      "desire",
+      "greed",
+      "longing",
+      "passion"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "歯",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [
+      "は",
+      "よわ.い",
+      "よわい",
+      "よわい.する"
+    ],
+    "meanings": [
+      "cog",
+      "tooth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "歳",
+    "on_readings": [
+      "サイ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "とし",
+      "とせ",
+      "よわい"
+    ],
+    "meanings": [
+      "age",
+      "occasion",
+      "opportunity",
+      "year-end"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "残",
+    "on_readings": [
+      "サン",
+      "ザン"
+    ],
+    "kun_readings": [
+      "そこな.う",
+      "のこ.す",
+      "のこ.り",
+      "のこ.る"
+    ],
+    "meanings": [
+      "balance",
+      "leftover",
+      "remainder"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "段",
+    "on_readings": [
+      "タン",
+      "ダン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "grade",
+      "stairs",
+      "steps"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "殺",
+    "on_readings": [
+      "サイ",
+      "サツ",
+      "セツ"
+    ],
+    "kun_readings": [
+      "-ごろ.し",
+      "あや.める",
+      "ころ.す",
+      "そ.ぐ"
+    ],
+    "meanings": [
+      "butcher",
+      "diminish",
+      "kill",
+      "murder",
+      "reduce",
+      "slice off",
+      "split",
+      "spoil"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "民",
+    "on_readings": [
+      "ミン"
+    ],
+    "kun_readings": [
+      "たみ"
+    ],
+    "meanings": [
+      "nation",
+      "people",
+      "subjects"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "求",
+    "on_readings": [
+      "キュウ",
+      "グ"
+    ],
+    "kun_readings": [
+      "もと.める"
+    ],
+    "meanings": [
+      "demand",
+      "request",
+      "require",
+      "want",
+      "wish for"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "決",
+    "on_readings": [
+      "ケツ"
+    ],
+    "kun_readings": [
+      "-ぎ.め",
+      "き.まる",
+      "き.める",
+      "さ.く"
+    ],
+    "meanings": [
+      "agree upon",
+      "appoint",
+      "decide",
+      "fix"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "治",
+    "on_readings": [
+      "ジ",
+      "チ"
+    ],
+    "kun_readings": [
+      "おさ.まる",
+      "おさ.める",
+      "なお.す",
+      "なお.る"
+    ],
+    "meanings": [
+      "be at peace",
+      "calm down",
+      "conserve",
+      "cure",
+      "govt",
+      "heal",
+      "quell",
+      "reign",
+      "rule",
+      "subdue"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "法",
+    "on_readings": [
+      "ハッ",
+      "フラン",
+      "ホウ",
+      "ホッ"
+    ],
+    "kun_readings": [
+      "のり"
+    ],
+    "meanings": [
+      "law",
+      "method",
+      "model",
+      "principle",
+      "rule",
+      "system"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "泳",
+    "on_readings": [
+      "エイ"
+    ],
+    "kun_readings": [
+      "およ.ぐ"
+    ],
+    "meanings": [
+      "swim"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "洗",
+    "on_readings": [
+      "セン"
+    ],
+    "kun_readings": [
+      "あら.う"
+    ],
+    "meanings": [
+      "inquire into",
+      "probe",
+      "wash"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "活",
+    "on_readings": [
+      "カツ"
+    ],
+    "kun_readings": [
+      "い.かす",
+      "い.きる",
+      "い.ける"
+    ],
+    "meanings": [
+      "being helped",
+      "lively",
+      "living",
+      "resuscitation"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "流",
+    "on_readings": [
+      "リュウ",
+      "ル"
+    ],
+    "kun_readings": [
+      "-なが.す",
+      "なが.す",
+      "なが.れ",
+      "なが.れる"
+    ],
+    "meanings": [
+      "a sink",
+      "current",
+      "flow",
+      "forfeit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "浮",
+    "on_readings": [
+      "フ"
+    ],
+    "kun_readings": [
+      "う.かぶ",
+      "う.かべる",
+      "う.かれる",
+      "う.く"
+    ],
+    "meanings": [
+      "float",
+      "floating",
+      "rise to surface"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "消",
+    "on_readings": [
+      "ショウ"
+    ],
+    "kun_readings": [
+      "き.える",
+      "け.す"
+    ],
+    "meanings": [
+      "blow out",
+      "cancel",
+      "extinguish",
+      "neutralize",
+      "turn off"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "深",
+    "on_readings": [
+      "シン"
+    ],
+    "kun_readings": [
+      "-ぶか.い",
+      "ふか.い",
+      "ふか.まる",
+      "ふか.める",
+      "み-"
+    ],
+    "meanings": [
+      "deep",
+      "heighten",
+      "intensify",
+      "strengthen"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "済",
+    "on_readings": [
+      "サイ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "-す.ます",
+      "-ず.み",
+      "-ずみ",
+      "す.ます",
+      "す.まない",
+      "す.む",
+      "すく.う",
+      "な.す",
+      "わた.る",
+      "わたし"
+    ],
+    "meanings": [
+      "come to an end",
+      "excusable",
+      "finish",
+      "need not",
+      "relieve (burden)",
+      "settle (debt, etc.)"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "渡",
+    "on_readings": [
+      "ト"
+    ],
+    "kun_readings": [
+      "-わた.る",
+      "わた.す",
+      "わた.る"
+    ],
+    "meanings": [
+      "cross",
+      "deliver",
+      "diameter",
+      "ferry",
+      "ford",
+      "import",
+      "migrate",
+      "transit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "港",
+    "on_readings": [
+      "コウ"
+    ],
+    "kun_readings": [
+      "みなと"
+    ],
+    "meanings": [
+      "harbor"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "満",
+    "on_readings": [
+      "バン",
+      "マン"
+    ],
+    "kun_readings": [
+      "み.たす",
+      "み.ちる",
+      "み.つ"
+    ],
+    "meanings": [
+      "enough",
+      "full",
+      "fullness",
+      "satisfy"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "演",
+    "on_readings": [
+      "エン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "act",
+      "performance",
+      "play",
+      "render",
+      "stage"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "点",
+    "on_readings": [
+      "テン"
+    ],
+    "kun_readings": [
+      "さ.す",
+      "た.てる",
+      "つ.く",
+      "つ.ける",
+      "とぼ.す",
+      "とも.す",
+      "ぼち"
+    ],
+    "meanings": [
+      "decimal point",
+      "mark",
+      "point",
+      "speck",
+      "spot"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "然",
+    "on_readings": [
+      "ゼン",
+      "ネン"
+    ],
+    "kun_readings": [
+      "さ",
+      "しか",
+      "しか.し",
+      "しか.り"
+    ],
+    "meanings": [
+      "if so",
+      "in that case",
+      "so",
+      "sort of thing",
+      "well"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "煙",
+    "on_readings": [
+      "エン"
+    ],
+    "kun_readings": [
+      "けむ.い",
+      "けむ.る",
+      "けむり"
+    ],
+    "meanings": [
+      "smoke"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "熱",
+    "on_readings": [
+      "ネツ"
+    ],
+    "kun_readings": [
+      "あつ.い"
+    ],
+    "meanings": [
+      "fever",
+      "heat",
+      "mania",
+      "passion",
+      "temperature"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "犯",
+    "on_readings": [
+      "ハン",
+      "ボン"
+    ],
+    "kun_readings": [
+      "おか.す"
+    ],
+    "meanings": [
+      "crime",
+      "offense",
+      "sin"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "状",
+    "on_readings": [
+      "ジョウ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "appearance",
+      "circumstances",
+      "conditions",
+      "form",
+      "status quo"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "猫",
+    "on_readings": [
+      "ビョウ"
+    ],
+    "kun_readings": [
+      "ねこ"
+    ],
+    "meanings": [
+      "cat"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "王",
+    "on_readings": [
+      "-ノウ",
+      "オウ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "king",
+      "magnate",
+      "rule"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "現",
+    "on_readings": [
+      "ゲン"
+    ],
+    "kun_readings": [
+      "あらわ.す",
+      "あらわ.れる",
+      "うつ.つ",
+      "うつつ"
+    ],
+    "meanings": [
+      "actual",
+      "existing",
+      "present"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "球",
+    "on_readings": [
+      "キュウ"
+    ],
+    "kun_readings": [
+      "たま"
+    ],
+    "meanings": [
+      "ball",
+      "sphere"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "産",
+    "on_readings": [
+      "サン"
+    ],
+    "kun_readings": [
+      "う.まれる",
+      "う.む",
+      "うぶ-",
+      "む.す"
+    ],
+    "meanings": [
+      "bear",
+      "childbirth",
+      "give birth",
+      "native",
+      "products",
+      "property",
+      "yield"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "由",
+    "on_readings": [
+      "ユ",
+      "ユイ",
+      "ユウ"
+    ],
+    "kun_readings": [
+      "よ.る",
+      "よし"
+    ],
+    "meanings": [
+      "a reason",
+      "wherefore"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "申",
+    "on_readings": [
+      "シン"
+    ],
+    "kun_readings": [
+      "さる",
+      "もう.し-",
+      "もう.す"
+    ],
+    "meanings": [
+      "3-5PM",
+      "have the honor to",
+      "ninth sign of Chinese zodiac",
+      "sign of the monkey"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "留",
+    "on_readings": [
+      "リュウ",
+      "ル"
+    ],
+    "kun_readings": [
+      "と.まる",
+      "と.める",
+      "とど.まる",
+      "とど.める",
+      "るうぶる"
+    ],
+    "meanings": [
+      "detain",
+      "fasten",
+      "halt",
+      "stop"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "番",
+    "on_readings": [
+      "バン"
+    ],
+    "kun_readings": [
+      "つが.い"
+    ],
+    "meanings": [
+      "number in a series",
+      "turn"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "疑",
+    "on_readings": [
+      "ギ"
+    ],
+    "kun_readings": [
+      "うたが.う"
+    ],
+    "meanings": [
+      "be suspicious",
+      "distrust",
+      "doubt",
+      "question"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "疲",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "-づか.れ",
+      "つか.らす",
+      "つか.れる"
+    ],
+    "meanings": [
+      "exhausted",
+      "tire",
+      "weary"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "痛",
+    "on_readings": [
+      "ツウ"
+    ],
+    "kun_readings": [
+      "いた.い",
+      "いた.ましい",
+      "いた.む",
+      "いた.める"
+    ],
+    "meanings": [
+      "bruise",
+      "damage",
+      "hurt",
+      "pain"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "登",
+    "on_readings": [
+      "ショウ",
+      "チョウ",
+      "ト",
+      "トウ",
+      "ドウ"
+    ],
+    "kun_readings": [
+      "あ.がる",
+      "のぼ.る"
+    ],
+    "meanings": [
+      "ascend",
+      "climb up"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "皆",
+    "on_readings": [
+      "カイ"
+    ],
+    "kun_readings": [
+      "みな",
+      "みんな"
+    ],
+    "meanings": [
+      "all",
+      "everything"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "盗",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "ぬす.み",
+      "ぬす.む"
+    ],
+    "meanings": [
+      "pilfer",
+      "rob",
+      "steal"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "直",
+    "on_readings": [
+      "ジカ",
+      "ジキ",
+      "チョク"
+    ],
+    "kun_readings": [
+      "-なお.す",
+      "す.ぐ",
+      "ただ.ちに",
+      "なお.き",
+      "なお.す",
+      "なお.る"
+    ],
+    "meanings": [
+      "fix",
+      "frankness",
+      "honesty",
+      "repair",
+      "straightaway"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "相",
+    "on_readings": [
+      "ショウ",
+      "ソウ"
+    ],
+    "kun_readings": [
+      "あい-"
+    ],
+    "meanings": [
+      "aspect",
+      "councillor",
+      "each other",
+      "inter-",
+      "minister of state",
+      "mutual",
+      "phase",
+      "physiognomy",
+      "together"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "眠",
+    "on_readings": [
+      "ミン"
+    ],
+    "kun_readings": [
+      "ねむ.い",
+      "ねむ.る"
+    ],
+    "meanings": [
+      "die",
+      "sleep",
+      "sleepy"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "石",
+    "on_readings": [
+      "コク",
+      "シャク",
+      "セキ"
+    ],
+    "kun_readings": [
+      "いし"
+    ],
+    "meanings": [
+      "stone"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "破",
+    "on_readings": [
+      "ハ"
+    ],
+    "kun_readings": [
+      "やぶ.る",
+      "やぶ.れる",
+      "わ.れる"
+    ],
+    "meanings": [
+      "break",
+      "defeat",
+      "destroy",
+      "frustrate",
+      "rend",
+      "rip",
+      "tear"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "確",
+    "on_readings": [
+      "カク",
+      "コウ"
+    ],
+    "kun_readings": [
+      "たし.か",
+      "たし.かめる"
+    ],
+    "meanings": [
+      "assurance",
+      "clear",
+      "confirm",
+      "evident",
+      "firm",
+      "hard",
+      "solid",
+      "tight"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "示",
+    "on_readings": [
+      "シ",
+      "ジ"
+    ],
+    "kun_readings": [
+      "しめ.す"
+    ],
+    "meanings": [
+      "display",
+      "express",
+      "indicate",
+      "point out",
+      "show"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "礼",
+    "on_readings": [
+      "ライ",
+      "レイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "bow",
+      "ceremony",
+      "remuneration",
+      "salute",
+      "thanks"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "祖",
+    "on_readings": [
+      "ソ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "ancestor",
+      "founder",
+      "pioneer"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "神",
+    "on_readings": [
+      "シン",
+      "ジン"
+    ],
+    "kun_readings": [
+      "かみ",
+      "かん-",
+      "こう-"
+    ],
+    "meanings": [
+      "gods",
+      "mind",
+      "soul"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "福",
+    "on_readings": [
+      "フク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "blessing",
+      "fortune",
+      "luck",
+      "wealth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "科",
+    "on_readings": [
+      "カ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "course",
+      "department",
+      "section"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "程",
+    "on_readings": [
+      "テイ"
+    ],
+    "kun_readings": [
+      "-ほど",
+      "ほど"
+    ],
+    "meanings": [
+      "amount",
+      "degree",
+      "distance",
+      "extent",
+      "formula",
+      "law",
+      "limits"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "種",
+    "on_readings": [
+      "シュ"
+    ],
+    "kun_readings": [
+      "-ぐさ",
+      "たね"
+    ],
+    "meanings": [
+      "class",
+      "kind",
+      "seed",
+      "species",
+      "variety"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "積",
+    "on_readings": [
+      "セキ"
+    ],
+    "kun_readings": [
+      "-づ.み",
+      "つ.む",
+      "つ.もり",
+      "つ.もる"
+    ],
+    "meanings": [
+      "acreage",
+      "amass",
+      "contents",
+      "load",
+      "pile up",
+      "product (x*y)",
+      "stack",
+      "volume"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "突",
+    "on_readings": [
+      "カ",
+      "トツ"
+    ],
+    "kun_readings": [
+      "つ.く"
+    ],
+    "meanings": [
+      "collision",
+      "pierce",
+      "prick",
+      "protruding",
+      "stab",
+      "sudden",
+      "thrust"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "窓",
+    "on_readings": [
+      "ス",
+      "ソウ"
+    ],
+    "kun_readings": [
+      "けむだし",
+      "てんまど",
+      "まど"
+    ],
+    "meanings": [
+      "pane",
+      "window"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "笑",
+    "on_readings": [
+      "ショウ"
+    ],
+    "kun_readings": [
+      "え.む",
+      "わら.う"
+    ],
+    "meanings": [
+      "laugh"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "等",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "-ら",
+      "など",
+      "ひと.しい"
+    ],
+    "meanings": [
+      "and so forth",
+      "class (first)",
+      "equal",
+      "etc.",
+      "quality",
+      "similar"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "箱",
+    "on_readings": [
+      "ソウ"
+    ],
+    "kun_readings": [
+      "はこ"
+    ],
+    "meanings": [
+      "bin",
+      "box",
+      "case",
+      "chest",
+      "railway car"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "米",
+    "on_readings": [
+      "ベイ",
+      "マイ",
+      "メエトル"
+    ],
+    "kun_readings": [
+      "こめ",
+      "よね"
+    ],
+    "meanings": [
+      "USA",
+      "metre",
+      "rice"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "精",
+    "on_readings": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "くわ.しい",
+      "しら.げる"
+    ],
+    "meanings": [
+      "energy",
+      "excellence",
+      "fairy",
+      "ghost",
+      "purity",
+      "refined",
+      "semen",
+      "skill",
+      "vitality"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "約",
+    "on_readings": [
+      "ヤク"
+    ],
+    "kun_readings": [
+      "つづ.まる",
+      "つづ.める",
+      "つづま.やか"
+    ],
+    "meanings": [
+      "approximately",
+      "promise",
+      "shrink"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "組",
+    "on_readings": [
+      "ソ"
+    ],
+    "kun_readings": [
+      "-ぐみ",
+      "く.む",
+      "くみ"
+    ],
+    "meanings": [
+      "assemble",
+      "association",
+      "braid",
+      "construct",
+      "cooperate",
+      "grapple",
+      "plait",
+      "unite"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "経",
+    "on_readings": [
+      "キョウ",
+      "キン",
+      "ケイ"
+    ],
+    "kun_readings": [
+      "た.つ",
+      "たていと",
+      "のり",
+      "はか.る",
+      "へ.る"
+    ],
+    "meanings": [
+      "expire",
+      "longitude",
+      "pass thru",
+      "sutra",
+      "warp"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "給",
+    "on_readings": [
+      "キュウ"
+    ],
+    "kun_readings": [
+      "-たま.え",
+      "たま.う",
+      "たも.う"
+    ],
+    "meanings": [
+      "allow",
+      "bestow on",
+      "gift",
+      "grant",
+      "salary",
+      "wage"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "絵",
+    "on_readings": [
+      "エ",
+      "カイ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "drawing",
+      "painting",
+      "picture",
+      "sketch"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "絶",
+    "on_readings": [
+      "ゼツ"
+    ],
+    "kun_readings": [
+      "た.える",
+      "た.つ",
+      "た.やす"
+    ],
+    "meanings": [
+      "abstain",
+      "be beyond",
+      "cut off",
+      "discontinue",
+      "interrupt",
+      "peerless",
+      "sever",
+      "suppress",
+      "unparalleled",
+      "without match"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "続",
+    "on_readings": [
+      "キョウ",
+      "コウ",
+      "ショク",
+      "ゾク"
+    ],
+    "kun_readings": [
+      "つぐ.ない",
+      "つづ.く",
+      "つづ.ける"
+    ],
+    "meanings": [
+      "continue",
+      "sequel",
+      "series"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "緒",
+    "on_readings": [
+      "ショ",
+      "チョ"
+    ],
+    "kun_readings": [
+      "いとぐち",
+      "お"
+    ],
+    "meanings": [
+      "beginning",
+      "cord",
+      "end",
+      "inception",
+      "mental or emotional state",
+      "strap",
+      "thong"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "罪",
+    "on_readings": [
+      "ザイ"
+    ],
+    "kun_readings": [
+      "つみ"
+    ],
+    "meanings": [
+      "blame",
+      "crime",
+      "fault",
+      "guilt",
+      "offense",
+      "sin"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "置",
+    "on_readings": [
+      "チ"
+    ],
+    "kun_readings": [
+      "-お.き",
+      "お.く"
+    ],
+    "meanings": [
+      "deposit",
+      "employ",
+      "keep",
+      "leave behind",
+      "pawn",
+      "placement",
+      "put",
+      "set"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "美",
+    "on_readings": [
+      "ビ",
+      "ミ"
+    ],
+    "kun_readings": [
+      "うつく.しい"
+    ],
+    "meanings": [
+      "beautiful",
+      "beauty"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "老",
+    "on_readings": [
+      "ロウ"
+    ],
+    "kun_readings": [
+      "お.いる",
+      "ふ.ける"
+    ],
+    "meanings": [
+      "grow old",
+      "old age",
+      "old man"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "耳",
+    "on_readings": [
+      "ジ"
+    ],
+    "kun_readings": [
+      "みみ"
+    ],
+    "meanings": [
+      "ear"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "職",
+    "on_readings": [
+      "ショク",
+      "ソク"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "employment",
+      "post",
+      "work"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "育",
+    "on_readings": [
+      "イク"
+    ],
+    "kun_readings": [
+      "そだ.ち",
+      "そだ.つ",
+      "そだ.てる",
+      "はぐく.む"
+    ],
+    "meanings": [
+      "bring up",
+      "grow up",
+      "raise",
+      "rear"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "背",
+    "on_readings": [
+      "ハイ"
+    ],
+    "kun_readings": [
+      "せ",
+      "せい",
+      "そむ.く",
+      "そむ.ける"
+    ],
+    "meanings": [
+      "back",
+      "behind",
+      "defy",
+      "disobey",
+      "go back on",
+      "height",
+      "rebel",
+      "stature"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "能",
+    "on_readings": [
+      "ノウ"
+    ],
+    "kun_readings": [
+      "あた.う",
+      "よ.く"
+    ],
+    "meanings": [
+      "ability",
+      "capacity",
+      "skill",
+      "talent"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "腹",
+    "on_readings": [
+      "フク"
+    ],
+    "kun_readings": [
+      "はら"
+    ],
+    "meanings": [
+      "abdomen",
+      "belly",
+      "stomach"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "舞",
+    "on_readings": [
+      "ブ"
+    ],
+    "kun_readings": [
+      "-ま.う",
+      "ま.う",
+      "まい"
+    ],
+    "meanings": [
+      "circle",
+      "dance",
+      "flit",
+      "wheel"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "船",
+    "on_readings": [
+      "セン"
+    ],
+    "kun_readings": [
+      "ふな-",
+      "ふね"
+    ],
+    "meanings": [
+      "boat",
+      "ship"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "良",
+    "on_readings": [
+      "リョウ"
+    ],
+    "kun_readings": [
+      "-い.い",
+      "-よ.い",
+      "い.い",
+      "よ.い"
+    ],
+    "meanings": [
+      "good",
+      "pleasing",
+      "skilled"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "若",
+    "on_readings": [
+      "ジャク",
+      "ニャ",
+      "ニャク"
+    ],
+    "kun_readings": [
+      "ごと.し",
+      "も.し",
+      "も.しくは",
+      "も.しくわ",
+      "わか-",
+      "わか.い"
+    ],
+    "meanings": [
+      "if",
+      "immature",
+      "low number",
+      "perhaps",
+      "possibly",
+      "young"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "苦",
+    "on_readings": [
+      "ク"
+    ],
+    "kun_readings": [
+      "-ぐる.しい",
+      "くる.しい",
+      "くる.しむ",
+      "くる.しめる",
+      "にが.い",
+      "にが.る"
+    ],
+    "meanings": [
+      "feel bitter",
+      "hardship",
+      "scowl",
+      "suffering",
+      "trial",
+      "worry"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "草",
+    "on_readings": [
+      "ソウ"
+    ],
+    "kun_readings": [
+      "-ぐさ",
+      "くさ",
+      "くさ-"
+    ],
+    "meanings": [
+      "draft",
+      "grass",
+      "herbs",
+      "pasture",
+      "weeds",
+      "write"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "落",
+    "on_readings": [
+      "ラク"
+    ],
+    "kun_readings": [
+      "お.ち",
+      "お.ちる",
+      "お.とす"
+    ],
+    "meanings": [
+      "come down",
+      "drop",
+      "fall",
+      "hamlet",
+      "village"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "葉",
+    "on_readings": [
+      "ヨウ"
+    ],
+    "kun_readings": [
+      "は"
+    ],
+    "meanings": [
+      "blade",
+      "counter for flat things",
+      "fragment",
+      "leaf",
+      "lobe",
+      "needle",
+      "piece",
+      "plane",
+      "spear"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "薬",
+    "on_readings": [
+      "ヤク"
+    ],
+    "kun_readings": [
+      "くすり"
+    ],
+    "meanings": [
+      "benefit",
+      "chemical",
+      "enamel",
+      "gunpowder",
+      "medicine"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "術",
+    "on_readings": [
+      "ジュツ"
+    ],
+    "kun_readings": [
+      "すべ"
+    ],
+    "meanings": [
+      "art",
+      "magic",
+      "means",
+      "resources",
+      "skill",
+      "technique",
+      "trick"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "表",
+    "on_readings": [
+      "ヒョウ"
+    ],
+    "kun_readings": [
+      "-おもて",
+      "あら.わす",
+      "あらわ.す",
+      "あらわ.れる",
+      "おもて"
+    ],
+    "meanings": [
+      "chart",
+      "diagram",
+      "surface",
+      "table"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "要",
+    "on_readings": [
+      "ヨウ"
+    ],
+    "kun_readings": [
+      "い.る",
+      "かなめ"
+    ],
+    "meanings": [
+      "essence",
+      "key to",
+      "main point",
+      "need",
+      "pivot"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "規",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "measure",
+      "standard"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "覚",
+    "on_readings": [
+      "カク"
+    ],
+    "kun_readings": [
+      "おぼ.える",
+      "さ.ます",
+      "さ.める",
+      "さと.る"
+    ],
+    "meanings": [
+      "awake",
+      "learn",
+      "memorize",
+      "remember",
+      "sober up"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "観",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [
+      "しめ.す",
+      "み.る"
+    ],
+    "meanings": [
+      "appearance",
+      "condition",
+      "look",
+      "outlook",
+      "view"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "解",
+    "on_readings": [
+      "カイ",
+      "ゲ"
+    ],
+    "kun_readings": [
+      "さと.る",
+      "と.かす",
+      "と.く",
+      "と.ける",
+      "ほど.く",
+      "ほど.ける",
+      "わか.る"
+    ],
+    "meanings": [
+      "absolve",
+      "answer",
+      "cancel",
+      "explain",
+      "explanation",
+      "key",
+      "minute",
+      "notes",
+      "solve",
+      "understanding",
+      "undo",
+      "unravel",
+      "untie"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "記",
+    "on_readings": [
+      "キ"
+    ],
+    "kun_readings": [
+      "しる.す"
+    ],
+    "meanings": [
+      "account",
+      "narrative",
+      "scribe"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "訪",
+    "on_readings": [
+      "ホウ"
+    ],
+    "kun_readings": [
+      "おとず.れる",
+      "たず.ねる",
+      "と.う"
+    ],
+    "meanings": [
+      "call on",
+      "look up",
+      "offer sympathy",
+      "visit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "許",
+    "on_readings": [
+      "キョ"
+    ],
+    "kun_readings": [
+      "もと",
+      "ゆる.す"
+    ],
+    "meanings": [
+      "approve",
+      "permit"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "認",
+    "on_readings": [
+      "ニン"
+    ],
+    "kun_readings": [
+      "したた.める",
+      "みと.める"
+    ],
+    "meanings": [
+      "acknowledge",
+      "appreciate",
+      "believe",
+      "discern",
+      "recognize",
+      "witness"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "誤",
+    "on_readings": [
+      "ゴ"
+    ],
+    "kun_readings": [
+      "-あやま.る",
+      "あやま.る"
+    ],
+    "meanings": [
+      "do wrong",
+      "err",
+      "mislead",
+      "mistake"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "説",
+    "on_readings": [
+      "セツ",
+      "ゼイ"
+    ],
+    "kun_readings": [
+      "と.く"
+    ],
+    "meanings": [
+      "explanation",
+      "opinion",
+      "rumor",
+      "theory"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "調",
+    "on_readings": [
+      "チョウ"
+    ],
+    "kun_readings": [
+      "しら.べ",
+      "しら.べる",
+      "ととの.う",
+      "ととの.える"
+    ],
+    "meanings": [
+      "exorcise",
+      "harmonize",
+      "investigate",
+      "key (music)",
+      "mediate",
+      "meter",
+      "prepare",
+      "tone",
+      "tune",
+      "writing style"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "談",
+    "on_readings": [
+      "ダン"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "discuss",
+      "talk"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "論",
+    "on_readings": [
+      "ロン"
+    ],
+    "kun_readings": [
+      "あげつら.う"
+    ],
+    "meanings": [
+      "argument",
+      "discourse"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "識",
+    "on_readings": [
+      "シキ"
+    ],
+    "kun_readings": [
+      "し.る",
+      "しる.す"
+    ],
+    "meanings": [
+      "discriminating",
+      "know",
+      "write"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "警",
+    "on_readings": [
+      "ケイ"
+    ],
+    "kun_readings": [
+      "いまし.める"
+    ],
+    "meanings": [
+      "admonish",
+      "commandment"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "議",
+    "on_readings": [
+      "ギ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "consideration",
+      "consultation",
+      "debate",
+      "deliberation"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "負",
+    "on_readings": [
+      "フ"
+    ],
+    "kun_readings": [
+      "お.う",
+      "ま.かす",
+      "ま.ける"
+    ],
+    "meanings": [
+      "-",
+      "assume a responsibility",
+      "bear",
+      "defeat",
+      "minus",
+      "negative",
+      "owe"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "財",
+    "on_readings": [
+      "サイ",
+      "ザイ",
+      "ゾク"
+    ],
+    "kun_readings": [
+      "たから"
+    ],
+    "meanings": [
+      "assets",
+      "money",
+      "property",
+      "wealth"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "貧",
+    "on_readings": [
+      "ヒン",
+      "ビン"
+    ],
+    "kun_readings": [
+      "まず.しい"
+    ],
+    "meanings": [
+      "poor",
+      "poverty"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "責",
+    "on_readings": [
+      "セキ"
+    ],
+    "kun_readings": [
+      "せ.める"
+    ],
+    "meanings": [
+      "blame",
+      "censure",
+      "condemn"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "費",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "つい.える",
+      "つい.やす"
+    ],
+    "meanings": [
+      "consume",
+      "cost",
+      "expense",
+      "spend",
+      "waste"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "資",
+    "on_readings": [
+      "シ"
+    ],
+    "kun_readings": [],
+    "meanings": [
+      "assets",
+      "be conducive to",
+      "capital",
+      "contribute to",
+      "data",
+      "funds",
+      "resources"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "賛",
+    "on_readings": [
+      "サン"
+    ],
+    "kun_readings": [
+      "たす.ける",
+      "たた.える"
+    ],
+    "meanings": [
+      "agree with",
+      "approve",
+      "assist",
+      "praise",
+      "title or inscription on picture"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "越",
+    "on_readings": [
+      "エツ",
+      "オツ"
+    ],
+    "kun_readings": [
+      "-こ.す",
+      "-ご.え",
+      "-ご.し",
+      "こ.える",
+      "こ.す"
+    ],
+    "meanings": [
+      "Vietnam",
+      "cross over",
+      "exceed",
+      "move to",
+      "surpass"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "路",
+    "on_readings": [
+      "ル",
+      "ロ"
+    ],
+    "kun_readings": [
+      "-じ",
+      "みち"
+    ],
+    "meanings": [
+      "distance",
+      "path",
+      "road",
+      "route"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "辞",
+    "on_readings": [
+      "ジ"
+    ],
+    "kun_readings": [
+      "いな.む",
+      "や.める"
+    ],
+    "meanings": [
+      "expression",
+      "resign",
+      "term",
+      "word"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "込",
+    "on_readings": [],
+    "kun_readings": [
+      "-こ.み",
+      "-こ.む",
+      "こ.み",
+      "こ.む",
+      "こ.める"
+    ],
+    "meanings": [
+      "(kokuji)",
+      "crowded",
+      "in bulk",
+      "included",
+      "mixture"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "迎",
+    "on_readings": [
+      "ゲイ"
+    ],
+    "kun_readings": [
+      "むか.える"
+    ],
+    "meanings": [
+      "greet",
+      "meet",
+      "welcome"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "返",
+    "on_readings": [
+      "ヘン"
+    ],
+    "kun_readings": [
+      "-かえ.す",
+      "-かえ.る",
+      "かえ.す",
+      "かえ.る"
+    ],
+    "meanings": [
+      "answer",
+      "fade",
+      "repay",
+      "return"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "迷",
+    "on_readings": [
+      "メイ"
+    ],
+    "kun_readings": [
+      "まよ.う"
+    ],
+    "meanings": [
+      "astray",
+      "be perplexed",
+      "err",
+      "illusion",
+      "in doubt",
+      "lost"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "追",
+    "on_readings": [
+      "ツイ"
+    ],
+    "kun_readings": [
+      "お.う"
+    ],
+    "meanings": [
+      "chase",
+      "drive away",
+      "follow",
+      "meanwhile",
+      "pursue"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "退",
+    "on_readings": [
+      "タイ"
+    ],
+    "kun_readings": [
+      "しりぞ.く",
+      "しりぞ.ける",
+      "ど.く",
+      "の.く",
+      "の.ける",
+      "ひ.く"
+    ],
+    "meanings": [
+      "expel",
+      "reject",
+      "repel",
+      "resign",
+      "retire",
+      "retreat",
+      "withdraw"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "逃",
+    "on_readings": [
+      "トウ"
+    ],
+    "kun_readings": [
+      "に.がす",
+      "に.げる",
+      "のが.す",
+      "のが.れる"
+    ],
+    "meanings": [
+      "escape",
+      "evade",
+      "flee",
+      "set free",
+      "shirk"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "途",
+    "on_readings": [
+      "ト"
+    ],
+    "kun_readings": [
+      "みち"
+    ],
+    "meanings": [
+      "road",
+      "route",
+      "way"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "速",
+    "on_readings": [
+      "ソク"
+    ],
+    "kun_readings": [
+      "すみ.やか",
+      "はや-",
+      "はや.い",
+      "はや.める"
+    ],
+    "meanings": [
+      "fast",
+      "quick"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "連",
+    "on_readings": [
+      "レン"
+    ],
+    "kun_readings": [
+      "-づ.れ",
+      "つ.れる",
+      "つら.なる",
+      "つら.ねる"
+    ],
+    "meanings": [
+      "clique",
+      "connect",
+      "gang",
+      "join",
+      "lead",
+      "party",
+      "take along"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "進",
+    "on_readings": [
+      "シン"
+    ],
+    "kun_readings": [
+      "すす.む",
+      "すす.める"
+    ],
+    "meanings": [
+      "advance",
+      "proceed",
+      "progress",
+      "promote"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "遅",
+    "on_readings": [
+      "チ"
+    ],
+    "kun_readings": [
+      "おく.らす",
+      "おく.れる",
+      "おそ.い"
+    ],
+    "meanings": [
+      "back",
+      "late",
+      "later",
+      "slow"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "遊",
+    "on_readings": [
+      "ユ",
+      "ユウ"
+    ],
+    "kun_readings": [
+      "あそ.ばす",
+      "あそ.ぶ"
+    ],
+    "meanings": [
+      "play"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "過",
+    "on_readings": [
+      "カ"
+    ],
+    "kun_readings": [
+      "あやま.ち",
+      "あやま.つ",
+      "す.ぎる",
+      "す.ごす",
+      "よ.ぎる",
+      "よぎ.る"
+    ],
+    "meanings": [
+      "error",
+      "exceed",
+      "go beyond",
+      "overdo"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "達",
+    "on_readings": [
+      "タツ",
+      "ダ"
+    ],
+    "kun_readings": [
+      "-たち"
+    ],
+    "meanings": [
+      "accomplished",
+      "arrive",
+      "attain",
+      "reach"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "違",
+    "on_readings": [
+      "イ"
+    ],
+    "kun_readings": [
+      "-ちが.える",
+      "たが.う",
+      "たが.える",
+      "ちが.い",
+      "ちが.う",
+      "ちが.える"
+    ],
+    "meanings": [
+      "differ",
+      "difference"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "遠",
+    "on_readings": [
+      "エン",
+      "オン"
+    ],
+    "kun_readings": [
+      "とお.い"
+    ],
+    "meanings": [
+      "distant",
+      "far"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "適",
+    "on_readings": [
+      "テキ"
+    ],
+    "kun_readings": [
+      "かな.う"
+    ],
+    "meanings": [
+      "capable",
+      "occasional",
+      "qualified",
+      "rare",
+      "suitable"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "選",
+    "on_readings": [
+      "セン"
+    ],
+    "kun_readings": [
+      "え.る",
+      "えら.ぶ",
+      "よ.る"
+    ],
+    "meanings": [
+      "choose",
+      "elect",
+      "prefer",
+      "select"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "部",
+    "on_readings": [
+      "ブ"
+    ],
+    "kun_readings": [
+      "-べ"
+    ],
+    "meanings": [
+      "bureau",
+      "class",
+      "copy",
+      "counter for copies of a newspaper or magazine",
+      "dept",
+      "part",
+      "portion",
+      "section"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "都",
+    "on_readings": [
+      "ツ",
+      "ト"
+    ],
+    "kun_readings": [
+      "みやこ"
+    ],
+    "meanings": [
+      "all",
+      "capital",
+      "everything",
+      "metropolis"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "配",
+    "on_readings": [
+      "ハイ"
+    ],
+    "kun_readings": [
+      "くば.る"
+    ],
+    "meanings": [
+      "distribute",
+      "exile",
+      "rationing",
+      "spouse"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "酒",
+    "on_readings": [
+      "シュ"
+    ],
+    "kun_readings": [
+      "さか-",
+      "さけ"
+    ],
+    "meanings": [
+      "alcohol",
+      "sake"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "閉",
+    "on_readings": [
+      "ヘイ"
+    ],
+    "kun_readings": [
+      "し.まる",
+      "し.める",
+      "た.てる",
+      "と.ざす",
+      "と.じる"
+    ],
+    "meanings": [
+      "closed",
+      "shut"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "関",
+    "on_readings": [
+      "カン"
+    ],
+    "kun_readings": [
+      "-ぜき",
+      "かか.わる",
+      "からくり",
+      "かんぬき",
+      "せき"
+    ],
+    "meanings": [
+      "barrier",
+      "concerning",
+      "connection",
+      "gateway",
+      "involve"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "降",
+    "on_readings": [
+      "コウ",
+      "ゴ"
+    ],
+    "kun_readings": [
+      "お.りる",
+      "お.ろす",
+      "くだ.す",
+      "くだ.る",
+      "ふ.り",
+      "ふ.る"
+    ],
+    "meanings": [
+      "descend",
+      "fall",
+      "precipitate",
+      "surrender"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "限",
+    "on_readings": [
+      "ゲン"
+    ],
+    "kun_readings": [
+      "-かぎ.り",
+      "かぎ.り",
+      "かぎ.る"
+    ],
+    "meanings": [
+      "limit",
+      "restrict",
+      "to best of ability"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "除",
+    "on_readings": [
+      "ジ",
+      "ジョ"
+    ],
+    "kun_readings": [
+      "-よ.け",
+      "のぞ.く"
+    ],
+    "meanings": [
+      "abolish",
+      "cancel",
+      "division (x/3)",
+      "except",
+      "exclude",
+      "remove"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "険",
+    "on_readings": [
+      "ケン"
+    ],
+    "kun_readings": [
+      "けわ.しい"
+    ],
+    "meanings": [
+      "impregnable position",
+      "inaccessible place",
+      "precipitous",
+      "sharp eyes",
+      "steep place"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "陽",
+    "on_readings": [
+      "ヨウ"
+    ],
+    "kun_readings": [
+      "ひ"
+    ],
+    "meanings": [
+      "daytime",
+      "heaven",
+      "male",
+      "positive",
+      "sunshine",
+      "yang principle"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "際",
+    "on_readings": [
+      "サイ"
+    ],
+    "kun_readings": [
+      "-ぎわ",
+      "きわ"
+    ],
+    "meanings": [
+      "adventurous",
+      "dangerous",
+      "edge",
+      "indecent",
+      "occasion",
+      "side",
+      "time",
+      "verge",
+      "when"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "雑",
+    "on_readings": [
+      "ザツ",
+      "ゾウ"
+    ],
+    "kun_readings": [
+      "まじ.える",
+      "まじ.る"
+    ],
+    "meanings": [
+      "miscellaneous"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "難",
+    "on_readings": [
+      "ナン"
+    ],
+    "kun_readings": [
+      "-がた.い",
+      "-にく.い",
+      "かた.い",
+      "むずか.しい",
+      "むつか.しい",
+      "むづか.しい"
+    ],
+    "meanings": [
+      "accident",
+      "defect",
+      "difficult",
+      "impossible",
+      "trouble"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "雪",
+    "on_readings": [
+      "セツ"
+    ],
+    "kun_readings": [
+      "ゆき"
+    ],
+    "meanings": [
+      "snow"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "静",
+    "on_readings": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun_readings": [
+      "しず-",
+      "しず.か",
+      "しず.まる",
+      "しず.める"
+    ],
+    "meanings": [
+      "quiet"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "非",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "あら.ず"
+    ],
+    "meanings": [
+      "injustice",
+      "mistake",
+      "negative",
+      "non-",
+      "un-"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "面",
+    "on_readings": [
+      "ベン",
+      "メン"
+    ],
+    "kun_readings": [
+      "おも",
+      "おもて",
+      "つら"
+    ],
+    "meanings": [
+      "face",
+      "features",
+      "mask",
+      "surface"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "靴",
+    "on_readings": [
+      "カ"
+    ],
+    "kun_readings": [
+      "くつ"
+    ],
+    "meanings": [
+      "shoes"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "頂",
+    "on_readings": [
+      "チョウ"
+    ],
+    "kun_readings": [
+      "いただ.く",
+      "いただき"
+    ],
+    "meanings": [
+      "peak",
+      "place on the head",
+      "receive",
+      "summit",
+      "top",
+      "top of head"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "頭",
+    "on_readings": [
+      "ズ",
+      "ト",
+      "トウ"
+    ],
+    "kun_readings": [
+      "-がしら",
+      "あたま",
+      "かしら",
+      "かぶり"
+    ],
+    "meanings": [
+      "counter for large animals",
+      "head"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "頼",
+    "on_readings": [
+      "ライ"
+    ],
+    "kun_readings": [
+      "たの.む",
+      "たの.もしい",
+      "たよ.る"
+    ],
+    "meanings": [
+      "request",
+      "trust"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "顔",
+    "on_readings": [
+      "ガン"
+    ],
+    "kun_readings": [
+      "かお"
+    ],
+    "meanings": [
+      "expression",
+      "face"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "願",
+    "on_readings": [
+      "ガン"
+    ],
+    "kun_readings": [
+      "-ねがい",
+      "ねが.う"
+    ],
+    "meanings": [
+      "hope",
+      "petition",
+      "request",
+      "vow",
+      "wish"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "類",
+    "on_readings": [
+      "ルイ"
+    ],
+    "kun_readings": [
+      "たぐ.い"
+    ],
+    "meanings": [
+      "class",
+      "genus",
+      "kind",
+      "sort",
+      "variety"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "飛",
+    "on_readings": [
+      "ヒ"
+    ],
+    "kun_readings": [
+      "-と.ばす",
+      "と.ばす",
+      "と.ぶ"
+    ],
+    "meanings": [
+      "fly",
+      "scatter",
+      "skip (pages)"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "首",
+    "on_readings": [
+      "シュ"
+    ],
+    "kun_readings": [
+      "くび"
+    ],
+    "meanings": [
+      "counter for songs and poems",
+      "neck"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "馬",
+    "on_readings": [
+      "バ"
+    ],
+    "kun_readings": [
+      "うま",
+      "うま-",
+      "ま"
+    ],
+    "meanings": [
+      "horse"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "髪",
+    "on_readings": [
+      "ハツ"
+    ],
+    "kun_readings": [
+      "かみ"
+    ],
+    "meanings": [
+      "hair of the head"
+    ],
+    "jlpt": "3"
+  },
+  {
+    "kanji": "鳴",
+    "on_readings": [
+      "メイ"
+    ],
+    "kun_readings": [
+      "な.く",
+      "な.らす",
+      "な.る"
+    ],
+    "meanings": [
+      "bark",
+      "chirp",
+      "cry",
+      "echo",
+      "honk",
+      "ring",
+      "sound"
+    ],
+    "jlpt": "3"
+  }
+]

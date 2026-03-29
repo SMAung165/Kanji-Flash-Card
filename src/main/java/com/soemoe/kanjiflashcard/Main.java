@@ -1,14 +1,12 @@
 package com.soemoe.kanjiflashcard;
 
 import com.soemoe.kanjiflashcard.services.QuizService;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         QuizService quizService = new QuizService(selectLevel(userInput), kanjiCountByUser(userInput));
-        userInput.close();
         quizService.startQuiz();
     }
 
@@ -23,19 +21,19 @@ public class Main {
             System.out.print("> ");
             switch (userInput.nextLine()) {
                 case "5" -> {
-                    return "N1";
+                    return "n1";
                 }
                 case "4" -> {
-                    return "N2";
+                    return "n2";
                 }
                 case "3" -> {
-                    return "N3";
+                    return "n3";
                 }
                 case "2" -> {
-                    return "N4";
+                    return "n4";
                 }
                 case "1" -> {
-                    return "N5";
+                    return "n5";
                 }
                 default -> System.out.println("Invalid input");
             }

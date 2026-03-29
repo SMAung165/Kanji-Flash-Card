@@ -7,41 +7,21 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class KanjiDatabase {
-    private ArrayList<Kanji> kanjis = new ArrayList<>();
-    private JsonLoader jsonLoader = new JsonLoader("kanji.json");
+    private final ArrayList<Kanji> kanjis;
 
     //constructors
-    public KanjiDatabase() {
-        kanjis.addAll(Arrays.asList());
+    public KanjiDatabase(String level) {
+        kanjis = getKanjiByLevel(level);
     }
 
     //getters
+    public ArrayList<Kanji> getKanjis() {
+        return kanjis;
+    }
 
     //methods
-    public ArrayList<Kanji> getKanjiByLevel(String level) {
-        ArrayList<Kanji> kanjiByLevel = new ArrayList<>();
-        for (Kanji kanji : kanjis) {
-            if (kanji.getKanjiLevel().equals(level)) {
-                kanjiByLevel.add(kanji);
-            }
-        }
-        return kanjiByLevel;
+    private ArrayList<Kanji> getKanjiByLevel(String level) {
+        JsonLoader loadKanjiList = new JsonLoader(String.format("src/main/resources/kanji_%s.json", level));
+        return new ArrayList<>(Arrays.asList(loadKanjiList.getKanjiList()));
     }
-
-    public String getKanjiChar(int index) {
-        return kanjis.get(index).getKanjiChar();
-    }
-
-    public String getOnyomi(int index) {
-        return kanjis.get(index).getOnyomi();
-    }
-
-    public String getKunyomi(int index) {
-        return kanjis.get(index).getKunyomi();
-    }
-
-    public String getMeaning(int index) {
-        return kanjis.get(index).getMeaning();
-    }
-
 }

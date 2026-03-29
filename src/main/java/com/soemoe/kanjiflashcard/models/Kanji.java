@@ -1,19 +1,27 @@
 package com.soemoe.kanjiflashcard.models;
 
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
+
 public class Kanji {
-    private String kanji;
-    private String onyomi;
-    private String kunyomi;
-    private String meaning;
-    private String kanjiLevel;
+    private final String kanji;
+    @SerializedName("on_readings")
+    private List<String> onyomi;
+    @SerializedName("kun_readings")
+    private List<String> kunyomi;
+    @SerializedName("meanings")
+    private List<String> meaning;
+    @SerializedName("jlpt")
+    private String jlptLevel;
 
     //constructor
-    public Kanji(String kanji, String onyomi, String kunyomi, String meaning, String kanjiLevel) {
+    public Kanji(String kanji, List<String> onyomi, List<String> kunyomi, List<String> meaning, String jlptLevel) {
         this.kanji = kanji;
         this.onyomi = onyomi;
         this.kunyomi = kunyomi;
         this.meaning = meaning;
-        this.kanjiLevel = kanjiLevel;
+        this.jlptLevel = jlptLevel;
     }
 
     //getter
@@ -22,18 +30,18 @@ public class Kanji {
     }
 
     public String getOnyomi() {
-        return onyomi;
+        return onyomi == null || onyomi.isEmpty() ? "none" : onyomi.get(0);
     }
 
     public String getKunyomi() {
-        return kunyomi;
+        return kunyomi == null || kunyomi.isEmpty() ? "none" : kunyomi.get(0);
     }
 
     public String getMeaning() {
-        return meaning;
+        return meaning == null || meaning.isEmpty() ? "none" : meaning.get(0);
     }
 
     public String getKanjiLevel() {
-        return kanjiLevel;
+        return jlptLevel;
     }
 }

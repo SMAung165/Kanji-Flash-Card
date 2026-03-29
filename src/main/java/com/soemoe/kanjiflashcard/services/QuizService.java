@@ -13,11 +13,11 @@ public class QuizService implements Reviewable {
     private ArrayList<KanjiCard> incorrectCards;
     private ArrayList<KanjiCard> quizDeck;
 
-    private int kanjiCount;
+    private final int kanjiCount;
     private int score;
     private int currentCardIndex = 0;
 
-    private String jlptLevel;
+    private final String jlptLevel;
 
     //constructors
     public QuizService(String jlptLevel, int KanjiCount) {
@@ -51,11 +51,11 @@ public class QuizService implements Reviewable {
 
     //internal methods
     private void deckPreparation() {
-        KanjiDatabase kanjiDatabase = new KanjiDatabase();
+        KanjiDatabase kanjiDatabase = new KanjiDatabase(jlptLevel);
         Kanji randomKanji;
         KanjiCard randomKanjiCard;
         ArrayList<KanjiCard> deck = new ArrayList<>();
-        int numberOfKanjiByUserInput = Math.min(kanjiCount, kanjiDatabase.getKanjiByLevel(jlptLevel).size());
+        int numberOfKanjiByUserInput = Math.min(kanjiCount, kanjiDatabase.getKanjis().size());
 
         int i = 0;
         while (i != numberOfKanjiByUserInput) {
@@ -71,8 +71,8 @@ public class QuizService implements Reviewable {
     }
 
     private Kanji getRandomKanjiByLevel(KanjiDatabase kanjiDatabase) {
-        int randomIndexNumber = (int) (Math.random() * (kanjiDatabase.getKanjiByLevel(jlptLevel).size()));
-        return kanjiDatabase.getKanjiByLevel(jlptLevel).get(randomIndexNumber);
+        int randomIndexNumber = (int) (Math.random() * (kanjiDatabase.getKanjis().size()));
+        return kanjiDatabase.getKanjis().get(randomIndexNumber);
     }
 
     private boolean isKanjiCardDuplicated(KanjiCard checkingKanjiCard, ArrayList<KanjiCard> kanjiList) {

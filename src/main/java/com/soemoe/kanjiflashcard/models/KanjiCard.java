@@ -1,5 +1,4 @@
 package com.soemoe.kanjiflashcard.models;
-import com.soemoe.kanjiflashcard.services.KanjiDatabase;
 
 import java.util.ArrayList;
 
