@@ -1,0 +1,51 @@
+[
+  {
+    "character": "対",
+    "onyomi": "セイ",
+    "kunyomi": "まつりごと",
+    "meaning": "politics, government",
+    "level": "N3"
+  },
+  {
+    "character": "合",
+    "onyomi": "ゴウ",
+    "kunyomi": "あ(う)",
+    "meaning": "fit, suit, join",
+    "level": "N3"
+  },
+  {
+    "character": "市",
+    "onyomi": "シ",
+    "kunyomi": "いち",
+    "meaning": "market, city, town",
+    "level": "N3"
+  },
+  {
+    "character": "戦",
+    "onyomi": "セン",
+    "kunyomi": "たたか(う)",
+    "meaning": "war, battle, match",
+    "level": "N3"
+  },
+  {
+    "character": "回",
+    "onyomi": "カイ",
+    "kunyomi": "まわ(す)",
+    "meaning": "times, round, revolve, counter",
+    "level": "N3"
+  },
+  {
+    "character": "日",
+    "onyomi": "ニチ, ジツ",
+    "kunyomi": "ひ, -び, -か",
+    "meaning": "day, sun, Japan, counter for days",
+    "level": "N5"
+  },
+  {
+    "character": "人",
+    "onyomi": "ジン、 ニン",
+    "kunyomi": "ひと",
+    "meaning": "person",
+    "level": "N5"
+  }
+]

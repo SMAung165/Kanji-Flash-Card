@@ -1,8 +1,11 @@
 package com.soemoe.kanjiflashcard.models;
+import com.soemoe.kanjiflashcard.services.KanjiDatabase;
+
 import java.util.ArrayList;
 
 public class KanjiCard extends Flashcard {
     private String correctReading;
+    private String jlptLevel;
 
     //constructors
     public KanjiCard() {
@@ -32,6 +35,5 @@ public class KanjiCard extends Flashcard {
             System.out.printf("%d. %s \n", i + 1, choices.get(i));
         }
     }
-
 
 }

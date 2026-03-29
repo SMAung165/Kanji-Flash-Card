@@ -1,24 +1,18 @@
 package com.soemoe.kanjiflashcard.services;
 
 import com.soemoe.kanjiflashcard.models.Kanji;
+import com.soemoe.kanjiflashcard.utils.JsonLoader;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class KanjiDatabase {
     private ArrayList<Kanji> kanjis = new ArrayList<>();
+    private JsonLoader jsonLoader = new JsonLoader("kanji.json");
 
     //constructors
     public KanjiDatabase() {
-        kanjis.addAll(Arrays.asList(
-                new Kanji("対", "セイ", "まつりごと", "politics, government", "N3"),
-                new Kanji("合", "ゴウ", "あ(う)", "fit, suit, join", "N3"),
-                new Kanji("市", "シ", "いち", "market, city, town", "N3"),
-                new Kanji("戦", "セン", "たたか(う)", "war, battle, match", "N3"),
-                new Kanji("回", "カイ", "まわ(す)", "times, round, revolve, counter", "N3"),
-                new Kanji("日", "ニチ, ジツ", "ひ, -び, -か", "day, sun, Japan, counter for days", "N5"),
-                new Kanji("人", "ジン、 ニン", "ひと", "person", "N5")
-        ));
+        kanjis.addAll(Arrays.asList());
     }
 
     //getters
