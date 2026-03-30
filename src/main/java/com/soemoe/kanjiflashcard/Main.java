@@ -1,6 +1,7 @@
 package com.soemoe.kanjiflashcard;
 
 import com.soemoe.kanjiflashcard.services.QuizService;
+
 import java.util.Scanner;
 
 public class Main {
@@ -61,5 +62,4 @@ public class Main {
             return false;
         }
     }
-
 }
