@@ -5,6 +5,7 @@ import com.soemoe.kanjiflashcard.models.Kanji;
 import com.soemoe.kanjiflashcard.models.KanjiCard;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class QuizService implements Reviewable {
@@ -13,40 +14,68 @@ public class QuizService implements Reviewable {
     private ArrayList<KanjiCard> incorrectCards;
     private ArrayList<KanjiCard> quizDeck;
     private final KanjiDatabase kanjiDatabase;
+    private final Scanner userChoice;
 
     private final int kanjiCount;
     private int score;
     private int currentCardIndex = 0;
 
-    private final String jlptLevel;
-
     //constructors
     public QuizService(String jlptLevel, int KanjiCount) {
         this.kanjiCount = KanjiCount;
-        this.jlptLevel = jlptLevel;
         this.score = 0;
         KanjiDatabase kanjiDatabase = new KanjiDatabase(jlptLevel);
         this.kanjiDatabase = kanjiDatabase;
         deckPreparation(kanjiDatabase);
+        userChoice = new Scanner(System.in);
     }
 
     //methods
     @Override
     public void startQuiz() {
         for (KanjiCard card : quizDeck) {
+            currentCardIndex++;
             currentCard = card;
             card.showCard();
-            card.showMultipleChoices(generateRandomChoices(kanjiDatabase));
+            System.out.println("Card Number: " + currentCardIndex);
+            card.setMultipleChoices(generateRandomChoices(kanjiDatabase));
+            card.showMultipleChoices();
+            verifyAnswer();
         }
+        showResults();
     }
 
     @Override
     public void verifyAnswer() {
+        System.out.print("Your answer: ");
+        while (true) {
+            String userAnswer = userChoice.nextLine();
+            if (isNumeric(userAnswer) && Integer.parseInt(userAnswer) <= currentCard.getMultipleChoices().size()) {
+                if (currentCard.getCorrectReading().equals(currentCard.getUserChoice(Integer.parseInt(userAnswer)))) {
+                    score++;
+                    System.out.println("Your answer is correct!");
+                } else {
+                    System.out.println("Your answer is incorrect!");
+                }
+                return;
+            } else {
+                System.out.println("Please enter a valid answer.");
+                System.out.print("> ");
+            }
+        }
+
     }
 
     @Override
     public void showResults() {
-
+        System.out.println("Correct: " + score);
+        System.out.println("Incorrect: " + (kanjiCount - score));
+        if(score > kanjiCount/2) {
+            System.out.println("偉い、よくやった！");
+        }
+        else{
+            System.out.println("ちゃんと勉強しろ!!");
+        }
     }
 
     @Override
@@ -106,5 +135,14 @@ public class QuizService implements Reviewable {
             }
         }
         return false;
+    }
+
+    private boolean isNumeric(String number) {
+        try {
+            Integer.parseInt(number);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 }

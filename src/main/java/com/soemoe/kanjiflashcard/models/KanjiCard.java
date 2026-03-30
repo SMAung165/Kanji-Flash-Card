@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class KanjiCard extends Flashcard {
-    private String correctReading;
-    private String jlptLevel;
+    private final String correctReading;
+    private ArrayList<String> multipleChoices;
 
     //constructors
     public KanjiCard(String word, String meaning, String correctReading) {
@@ -18,6 +18,15 @@ public class KanjiCard extends Flashcard {
         return correctReading;
     }
 
+    public ArrayList<String> getMultipleChoices() {
+        return multipleChoices;
+    }
+
+    //setters
+    public void setMultipleChoices(ArrayList<String> multipleChoices) {
+        this.multipleChoices = multipleChoices;
+    }
+
     //methods
     @Override
     public void showCard() {
@@ -27,11 +36,15 @@ public class KanjiCard extends Flashcard {
     }
 
     @Override
-    public void showMultipleChoices(ArrayList<String> choices) {
-        Collections.shuffle(choices);
-        for (int i = 0; i < choices.size(); i++) {
-            System.out.printf("%d. %s \n", i + 1, choices.get(i));
+    public void showMultipleChoices() {
+        Collections.shuffle(multipleChoices);
+        for (int i = 0; i < multipleChoices.size(); i++) {
+            System.out.printf("%d. %s \n", i + 1, multipleChoices.get(i));
         }
+    }
+
+    public String getUserChoice(int indexNumber) {
+        return getMultipleChoices().get(indexNumber - 1);
     }
 
 }

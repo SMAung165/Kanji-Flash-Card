@@ -49,7 +49,7 @@ public class Kanji {
             result = "none";
         } else {
             StringBuilder kunyomiReadingList = new StringBuilder();
-            for (String kunyomi : onyomi) {
+            for (String kunyomi : kunyomi) {
                 kunyomiReadingList.append(kunyomi).append(", ");
             }
             result = removeExtraDelimiter(kunyomiReadingList.toString(), ",");

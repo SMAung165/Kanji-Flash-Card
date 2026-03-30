@@ -1,6 +1,5 @@
 package com.soemoe.kanjiflashcard.models;
 
-import java.util.ArrayList;
 
 public abstract class Flashcard {
     protected String word;
@@ -24,5 +23,5 @@ public abstract class Flashcard {
     //methods
     public abstract void showCard();
 
-    public abstract void showMultipleChoices(ArrayList<String> choices);
+    public abstract void showMultipleChoices();
 }

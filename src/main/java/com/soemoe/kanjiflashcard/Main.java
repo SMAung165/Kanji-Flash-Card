@@ -1,5 +1,4 @@
 package com.soemoe.kanjiflashcard;
-
 import com.soemoe.kanjiflashcard.services.QuizService;
 
 import java.util.Scanner;
@@ -49,7 +48,7 @@ public class Main {
             System.out.print("> ");
             numberValue = userInput.nextLine();
             if (isNumeric(numberValue)) return Integer.parseInt(numberValue);
-            System.out.println("Please enter a numeric value!");
+            System.out.println("Please enter an integer value!");
         }
     }
 
