@@ -30,47 +30,19 @@ public class Kanji {
     }
 
     public String getOnyomi() {
-        String result;
-        if (onyomi == null || onyomi.isEmpty()) {
-            result = "none";
-        } else {
-            StringBuilder onyomiReadingList = new StringBuilder();
-            for (String onyomi : onyomi) {
-                onyomiReadingList.append(onyomi).append(", ");
-            }
-            result = removeExtraDelimiter(onyomiReadingList.toString(), ",");
-        }
-        return String.format("On: {%s}", result);
+        return onyomi == null || onyomi.isEmpty() ? "On: {none}" : String.format("On: {%s}", String.join(", ", onyomi));
     }
 
     public String getKunyomi() {
-        String result;
-        if (kunyomi == null || kunyomi.isEmpty()) {
-            result = "none";
-        } else {
-            StringBuilder kunyomiReadingList = new StringBuilder();
-            for (String kunyomi : kunyomi) {
-                kunyomiReadingList.append(kunyomi).append(", ");
-            }
-            result = removeExtraDelimiter(kunyomiReadingList.toString(), ",");
-        }
-        return String.format("Kun: {%s}", result);
+        return kunyomi == null || kunyomi.isEmpty() ? "Kun: {none}" : String.format("Kun: {%s}", String.join(", ", kunyomi));
     }
 
     public String getMeaning() {
-        return meaning == null || meaning.isEmpty() ? null : meaning.get(0);
+        return meaning == null || meaning.isEmpty() ? "" : String.join(", ", meaning);
     }
 
     public String getKanjiLevel() {
         return jlptLevel;
     }
 
-    //utility methods
-    private String removeExtraDelimiter(String inputString, String delimiter) {
-        StringBuilder result = new StringBuilder(inputString.trim());
-        if (result.substring(result.length() - 1).equals(delimiter)) {
-            result.deleteCharAt(result.length() - 1);
-        }
-        return result.toString();
-    }
 }

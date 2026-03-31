@@ -3,6 +3,7 @@ package com.soemoe.kanjiflashcard.services;
 import com.soemoe.kanjiflashcard.contracts.Reviewable;
 import com.soemoe.kanjiflashcard.models.Kanji;
 import com.soemoe.kanjiflashcard.models.KanjiCard;
+import com.soemoe.kanjiflashcard.utils.ValidationUtils;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,23 +12,23 @@ import java.util.Scanner;
 public class QuizService implements Reviewable {
 
     private KanjiCard currentCard;
-    private ArrayList<KanjiCard> incorrectCards;
+    private final ArrayList<KanjiCard> incorrectCards = new ArrayList<>();
     private ArrayList<KanjiCard> quizDeck;
     private final KanjiDatabase kanjiDatabase;
-    private final Scanner userChoice;
+    private final Scanner userInput;
 
     private final int kanjiCount;
     private int score;
     private int currentCardIndex = 0;
 
     //constructors
-    public QuizService(String jlptLevel, int KanjiCount) {
-        this.kanjiCount = KanjiCount;
+    public QuizService(String jlptLevel, int kanjiCount) {
+        this.kanjiCount = kanjiCount;
         this.score = 0;
         KanjiDatabase kanjiDatabase = new KanjiDatabase(jlptLevel);
         this.kanjiDatabase = kanjiDatabase;
         deckPreparation(kanjiDatabase);
-        userChoice = new Scanner(System.in);
+        userInput = new Scanner(System.in);
     }
 
     //methods
@@ -43,19 +44,26 @@ public class QuizService implements Reviewable {
             verifyAnswer();
         }
         showResults();
+        if (!incorrectCards.isEmpty()) showMistakes();
     }
 
     @Override
     public void verifyAnswer() {
         System.out.print("Your answer: ");
         while (true) {
-            String userAnswer = userChoice.nextLine();
-            if (isNumeric(userAnswer) && Integer.parseInt(userAnswer) <= currentCard.getMultipleChoices().size()) {
-                if (currentCard.getCorrectReading().equals(currentCard.getUserChoice(Integer.parseInt(userAnswer)))) {
+            String userAnswer = userInput.nextLine();
+            if (
+                    (ValidationUtils.isNumeric(userAnswer))
+                            && (Integer.parseInt(userAnswer) > 0)
+                            && (Integer.parseInt(userAnswer) <= currentCard.getMultipleChoices().size())
+            ) {
+                currentCard.setUserChoice(currentCard.getMultipleChoices().get(Integer.parseInt(userAnswer) - 1));
+                if (currentCard.getCorrectReading().equals(currentCard.getUserChoice())) {
                     score++;
                     System.out.println("Your answer is correct!");
                 } else {
                     System.out.println("Your answer is incorrect!");
+                    incorrectCards.add(currentCard);
                 }
                 return;
             } else {
@@ -68,19 +76,27 @@ public class QuizService implements Reviewable {
 
     @Override
     public void showResults() {
+        System.out.println("----------------------------------------------");
         System.out.println("Correct: " + score);
         System.out.println("Incorrect: " + (kanjiCount - score));
-        if(score > kanjiCount/2) {
+        if (score > kanjiCount / 2) {
             System.out.println("偉い、よくやった！");
-        }
-        else{
+        } else {
             System.out.println("ちゃんと勉強しろ!!");
         }
+        System.out.println("----------------------------------------------");
     }
 
     @Override
     public void showMistakes() {
-
+        System.out.println("----------------------------------------------");
+        System.out.println("📝 Review Your Mistakes: ");
+        System.out.println("----------------------------------------------");
+        for (KanjiCard incorrectCard : this.incorrectCards) {
+            incorrectCard.showCard();
+            System.out.println("You answered -> " + incorrectCard.getUserChoice());
+            System.out.println("Correct Reading -> " + incorrectCard.getCorrectReading());
+        }
     }
 
     //internal methods
@@ -109,11 +125,13 @@ public class QuizService implements Reviewable {
 
     private ArrayList<String> generateRandomChoices(KanjiDatabase kanjiDatabase) {
         ArrayList<String> randomReadingChoices = new ArrayList<>();
+        Kanji randomKanji;
         String randomReading;
         int i = 0;
         while (i != 3) {
-            randomReading = getRandomKanji(kanjiDatabase).getKunyomi() + ", " + getRandomKanji(kanjiDatabase).getOnyomi();
-            if (!randomReadingChoices.contains(randomReading)) {
+            randomKanji = getRandomKanji(kanjiDatabase);
+            randomReading = randomKanji.getKunyomi() + ", " + randomKanji.getOnyomi();
+            if (!randomReadingChoices.contains(randomReading) && !randomReading.equals(currentCard.getCorrectReading())) {
                 randomReadingChoices.add(randomReading);
                 i++;
             }
@@ -135,14 +153,5 @@ public class QuizService implements Reviewable {
             }
         }
         return false;
-    }
-
-    private boolean isNumeric(String number) {
-        try {
-            Integer.parseInt(number);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
     }
 }

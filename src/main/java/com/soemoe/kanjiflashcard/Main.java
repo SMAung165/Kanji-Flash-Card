@@ -1,5 +1,7 @@
 package com.soemoe.kanjiflashcard;
+
 import com.soemoe.kanjiflashcard.services.QuizService;
+import com.soemoe.kanjiflashcard.utils.ValidationUtils;
 
 import java.util.Scanner;
 
@@ -40,25 +42,23 @@ public class Main {
         }
     }
 
+
     private static int kanjiCountByUser(Scanner userInput) {
         String numberValue;
         while (true) {
-            System.out.println("Enter the number Kanji(s) you want to practice");
+            System.out.println("Enter the number Kanji(s) you want to practice.");
             System.out.println("----------------------------------------------");
             System.out.print("> ");
             numberValue = userInput.nextLine();
-            if (isNumeric(numberValue)) return Integer.parseInt(numberValue);
+            if (ValidationUtils.isNumeric(numberValue)) {
+                if (Integer.parseInt(numberValue) > 0) {
+                    return Integer.parseInt(numberValue);
+                } else {
+                    System.out.println("Please enter a number greater than 0.");
+                    continue;
+                }
+            }
             System.out.println("Please enter an integer value!");
-        }
-    }
-
-    //utility methods
-    private static boolean isNumeric(String number) {
-        try {
-            Integer.parseInt(number);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
         }
     }
 }

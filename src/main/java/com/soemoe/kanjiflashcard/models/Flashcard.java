@@ -6,8 +6,8 @@ public abstract class Flashcard {
     protected String meaning;
 
     //constructor
-    public Flashcard(String words, String meaning) {
-        this.word = words;
+    public Flashcard(String word, String meaning) {
+        this.word = word;
         this.meaning = meaning;
     }
 

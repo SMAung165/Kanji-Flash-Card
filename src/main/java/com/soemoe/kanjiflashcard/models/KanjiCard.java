@@ -6,6 +6,7 @@ import java.util.Collections;
 public class KanjiCard extends Flashcard {
     private final String correctReading;
     private ArrayList<String> multipleChoices;
+    private String userChoice;
 
     //constructors
     public KanjiCard(String word, String meaning, String correctReading) {
@@ -22,17 +23,25 @@ public class KanjiCard extends Flashcard {
         return multipleChoices;
     }
 
+    public String getUserChoice() {
+        return userChoice;
+    }
+
     //setters
     public void setMultipleChoices(ArrayList<String> multipleChoices) {
         this.multipleChoices = multipleChoices;
     }
 
+    public void setUserChoice(String userChoice) {
+        this.userChoice = userChoice;
+    }
+
     //methods
     @Override
     public void showCard() {
-        System.out.println("------------------------------------");
-        System.out.printf("Kanji: %s\n", word);
-        System.out.printf("Meaning: %s\n", meaning);
+        System.out.println("----------------------------------------------");
+        System.out.printf("Kanji: %s\n", getWord());
+        System.out.printf("Meaning: %s\n", getMeaning());
     }
 
     @Override
@@ -43,8 +52,6 @@ public class KanjiCard extends Flashcard {
         }
     }
 
-    public String getUserChoice(int indexNumber) {
-        return getMultipleChoices().get(indexNumber - 1);
-    }
+
 
 }
