@@ -56,22 +56,21 @@ Select JLPT Level
 3. N3
 4. N2
 5. N1
-> 4
-
-Enter the number of Kanji(s) you want to practice.
+> 2
+Enter the number Kanji(s) you want to practice.
 ----------------------------------------------
-> 5
-
+> 3
 ----------------------------------------------
-Kanji: 漢
-Meaning: Sino-, China
+Kanji: 体
+Meaning: body, counter for images, object, reality, substance
 Card Number: 1
-1. Kun: {おとこ}, On: {ダン、ナン}
-2. Kun: {おとな}, On: {ジン、ニン}
-3. Kun: {おとこ、おのこ}, On: {ダン、ナン}  ← correct!
-4. Kun: {none}, On: {カン、おとこ}
-Your answer: 3
+1. Kun: {とり}, On: {チョウ} 
+2. Kun: {かたち, からだ}, On: {タイ, テイ} 
+3. Kun: {むろ}, On: {シツ} 
+4. Kun: {くろ, くろ.い, くろ.ずむ}, On: {コク} 
+Your answer: 2
 Your answer is correct!
+----------------------------------------------
 ```
 
 ---
