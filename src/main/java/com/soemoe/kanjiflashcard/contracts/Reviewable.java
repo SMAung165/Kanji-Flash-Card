@@ -1,8 +1,13 @@
 package com.soemoe.kanjiflashcard.contracts;
 
+
+import com.soemoe.kanjiflashcard.models.KanjiCard;
+
+import java.util.ArrayList;
+
 public interface Reviewable {
-    void startQuiz();
-    void verifyAnswer();
-//    void showResults();
-//    void showMistakes();
+    boolean processUserAnswer(String userAnswer);
+    ArrayList<KanjiCard> getQuizDeck();
+    ArrayList<KanjiCard> getIncorrectCards();
+    int getScore();
 }

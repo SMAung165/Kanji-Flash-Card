@@ -1,7 +1,6 @@
 package com.soemoe.kanjiflashcard.models;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class KanjiCard extends Flashcard {
     private final String correctReading;
@@ -43,23 +42,6 @@ public class KanjiCard extends Flashcard {
 
     public void setCardNumber(int cardNumber) {
         this.cardNumber = cardNumber;
-    }
-
-    //methods
-    @Override
-    public void showCard() {
-        System.out.println("----------------------------------------------");
-        System.out.printf("Kanji: %s\n", getWord());
-        System.out.printf("Meaning: %s\n", getMeaning());
-        System.out.printf("Card No. %d\n", cardNumber);
-    }
-
-    @Override
-    public void showMultipleChoices() {
-        Collections.shuffle(multipleChoices);
-        for (int i = 0; i < multipleChoices.size(); i++) {
-            System.out.printf("%d. %s \n", i + 1, multipleChoices.get(i));
-        }
     }
 
 

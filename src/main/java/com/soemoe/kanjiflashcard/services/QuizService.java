@@ -1,12 +1,13 @@
 package com.soemoe.kanjiflashcard.services;
 
+import com.soemoe.kanjiflashcard.contracts.Reviewable;
 import com.soemoe.kanjiflashcard.models.Kanji;
 import com.soemoe.kanjiflashcard.models.KanjiCard;
 
 import java.util.ArrayList;
 
 
-public class QuizService {
+public class QuizService implements Reviewable {
 
     private KanjiCard currentCard;
     private final ArrayList<KanjiCard> incorrectCards = new ArrayList<>();
@@ -25,23 +26,25 @@ public class QuizService {
     }
 
     //getters
+    @Override
     public ArrayList<KanjiCard> getQuizDeck() {
         return quizDeck;
     }
 
+    @Override
     public ArrayList<KanjiCard> getIncorrectCards() {
         return incorrectCards;
     }
 
+    public ArrayList<String> generateChoicesForCard(KanjiCard card) {
+        this.currentCard = card;
+        return generateRandomChoices();
+    }
+
+    @Override
     public int getScore() {
         return score;
     }
-
-    //setters
-    public void setCurrentCard(KanjiCard currentCard) {
-        this.currentCard = currentCard;
-    }
-
 
     //methods
     public boolean processUserAnswer(String userAnswer) {
@@ -78,7 +81,7 @@ public class QuizService {
         quizDeck = deck;
     }
 
-    public ArrayList<String> generateRandomChoices() {
+    private ArrayList<String> generateRandomChoices() {
         ArrayList<String> randomReadingChoices = new ArrayList<>();
         Kanji randomKanji;
         String randomReading;

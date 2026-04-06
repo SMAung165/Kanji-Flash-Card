@@ -8,7 +8,9 @@ import com.soemoe.kanjiflashcard.utils.ValidationUtils;
 public class Main {
     public static void main(String[] args) {
         QuizUI quizUI = new QuizUI();
-        QuizService quizService = new QuizService(quizUI.getLevel(), quizUI.getKanjiCount());
+        String level  = quizUI.getLevel();
+        int kanjiCount = quizUI.getKanjiCount();
+        QuizService quizService = new QuizService(level, kanjiCount);
         startQuiz(quizUI, quizService);
     }
 
@@ -18,10 +20,9 @@ public class Main {
         int cardNumber = 1;
         for (KanjiCard card : quizService.getQuizDeck()) {
             card.setCardNumber(cardNumber++);
-            quizService.setCurrentCard(card);
-            card.showCard();
-            card.setMultipleChoices(quizService.generateRandomChoices());
-            card.showMultipleChoices();
+            quizUI.showCard(card);
+            card.setMultipleChoices(quizService.generateChoicesForCard(card));
+            quizUI.showMultipleChoices(card);
             while (true) {
                 String userAnswer = quizUI.getUserAnswer();
                 if (ValidationUtils.validateUserAnswer(userAnswer, card)) {
@@ -32,7 +33,7 @@ public class Main {
                 }
             }
         }
-        quizUI.showResults(quizService.getScore());
+        quizUI.showResults(quizService.getScore(), quizService.getIncorrectCards().size());
         if (!quizService.getIncorrectCards().isEmpty()) quizUI.showMistakes(quizService.getIncorrectCards());
     }
 

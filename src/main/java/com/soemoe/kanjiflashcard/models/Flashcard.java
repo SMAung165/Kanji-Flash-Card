@@ -18,10 +18,4 @@ public abstract class Flashcard {
     public String getMeaning() {
         return meaning;
     }
-
-
-    //methods
-    public abstract void showCard();
-
-    public abstract void showMultipleChoices();
 }

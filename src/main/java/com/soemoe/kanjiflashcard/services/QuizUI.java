@@ -3,27 +3,24 @@ import com.soemoe.kanjiflashcard.models.KanjiCard;
 import com.soemoe.kanjiflashcard.utils.ValidationUtils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class QuizUI {
-    private final int kanjiCount;
-    private final String level;
     private final Scanner userInput;
 
     //constructors
     public QuizUI() {
         userInput = new Scanner(System.in);
-        level = selectLevel(userInput);
-        kanjiCount = kanjiCountByUser(userInput);
     }
 
     //getters
     public String getLevel() {
-        return level;
+        return selectLevel(userInput);
     }
 
     public int getKanjiCount() {
-        return kanjiCount;
+        return kanjiCountByUser(userInput);
     }
 
     public String getUserAnswer() {
@@ -80,6 +77,20 @@ public class QuizUI {
         }
     }
 
+    public void showCard(KanjiCard card) {
+        System.out.println("----------------------------------------------");
+        System.out.printf("Kanji: %s\n", card.getWord());
+        System.out.printf("Meaning: %s\n", card.getMeaning());
+        System.out.printf("Card No. %d\n", card.getCardNumber());
+    }
+
+    public void showMultipleChoices(KanjiCard card) {
+        Collections.shuffle(card.getMultipleChoices());
+        for (int i = 0; i < card.getMultipleChoices().size(); i++) {
+            System.out.printf("%d. %s \n", i + 1, card.getMultipleChoices().get(i));
+        }
+    }
+
     public void responseUserAnswer(boolean isCorrect) {
         System.out.println(
                 isCorrect ? "Your answer is correct!" : "Your answer is incorrect!"
@@ -90,11 +101,11 @@ public class QuizUI {
         System.out.println("Invalid Input!");
     }
 
-    public void showResults(int score) {
+    public void showResults(int score, int mistakes) {
         System.out.println("----------------------------------------------");
         System.out.println("Correct: " + score);
-        System.out.println("Incorrect: " + (kanjiCount - score));
-        if (score > kanjiCount / 2) {
+        System.out.println("Incorrect: " + (mistakes));
+        if (score > mistakes) {
             System.out.println("偉い、よくやった！");
         } else {
             System.out.println("ちゃんと勉強しろ!!");
@@ -107,11 +118,10 @@ public class QuizUI {
         System.out.println("📝 Review Your Mistakes: ");
         System.out.println("----------------------------------------------");
         for (KanjiCard incorrectCard : incorrectCards) {
-            incorrectCard.showCard();
+            showCard(incorrectCard);
             System.out.println("You answered -> " + incorrectCard.getUserChoice());
             System.out.println("Correct Reading -> " + incorrectCard.getCorrectReading());
         }
     }
-
 
 }
