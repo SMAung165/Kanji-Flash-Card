@@ -20,7 +20,6 @@ public class QuizService implements Reviewable {
     //constructors
     public QuizService(String jlptLevel, int kanjiCount) {
         this.kanjiCount = kanjiCount;
-        this.score = 0;
         this.kanjiDatabase = new KanjiDatabase(jlptLevel);
         deckPreparation();
     }

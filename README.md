@@ -1,40 +1,83 @@
-# 🎴 KanjiFlash
-
-A console-based Kanji flashcard quiz app built with Java — because why not combine JLPT prep with Java practice? Study smarter, not harder. 勉強しろ！😄
-
----
-
-## ✨ Features
-
-- **JLPT Level Selection** — practice N5 through N1
-- **Custom card count** — choose how many Kanji to study per session
-- **Multiple choice quiz** — 4 randomized choices per card
-- **Smart wrong answer generation** — wrong choices come from the same JLPT level, never duplicates the correct answer
-- **Score tracking** — see how many you got right at the end
-- **Mistake review** — review every card you got wrong with the correct reading
-- **JSON-based Kanji database** — clean, maintainable data source per JLPT level
+# KanjiFlash
+> A console-based Kanji flashcard quiz application built with Java — combining JLPT exam preparation with real-world software engineering practices.
 
 ---
 
-## 🛠️ Tech Stack
+## Overview
 
-| | |
+KanjiFlash is a Java console application that quizzes users on Kanji readings through a multiple-choice format. The application supports all JLPT levels (N1–N5), loads Kanji data dynamically from JSON files, and provides a mistake review session at the end of each quiz.
+
+This project was built as part of a Java learning journey, deliberately applying software engineering principles including SOLID, OOP, and clean architecture patterns.
+
+---
+
+## Features
+
+- **JLPT Level Selection** — practice Kanji from N5 through N1
+- **Custom Session Length** — choose how many Kanji cards to study per session
+- **Multiple Choice Quiz** — 4 randomized answer choices per card
+- **Smart Answer Generation** — wrong choices are pulled from the same JLPT level, never duplicating the correct answer
+- **Score Tracking** — correct and incorrect counts displayed at the end
+- **Mistake Review** — full review of every incorrectly answered card with correct readings shown
+- **Input Validation** — handles all invalid inputs gracefully
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
 |---|---|
 | Language | Java 17+ |
-| IDE | IntelliJ IDEA |
-| Build | Maven |
+| Build Tool | Maven |
 | JSON Parsing | Google GSON |
+| IDE | IntelliJ IDEA |
 
 ---
 
-## 🚀 How To Run
+## Project Structure
 
-1. Clone the repo
+```
+src/main/java/com/soemoe/kanjiflashcard/
+├── Main.java                          # Entry point and quiz orchestrator
+├── models/
+│   ├── Flashcard.java                 # Abstract base class for all flashcard types
+│   ├── KanjiCard.java                 # Kanji-specific flashcard model
+│   └── Kanji.java                     # GSON data model for JSON deserialization
+├── services/
+│   ├── QuizService.java               # Core quiz logic — answer checking, scoring, deck management
+│   ├── QuizUI.java                    # All user input and console output
+│   └── KanjiDatabase.java             # Loads and provides Kanji data by JLPT level
+├── contracts/
+│   └── Reviewable.java                # Interface defining the quiz service contract
+└── utils/
+    ├── JsonLoader.java                # GSON-based JSON file loader
+    └── ValidationUtils.java           # Shared input validation utilities
+
+src/main/resources/
+├── kanji_n1.json
+├── kanji_n2.json
+├── kanji_n3.json
+├── kanji_n4.json
+└── kanji_n5.json
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Java 17 or above
+- Maven
+
+### Installation
+
+1. Clone the repository
 ```bash
 git clone https://github.com/SMAung165/Kanji-Flash-Card.git
+cd Kanji-Flash-Card
 ```
-2. Open in IntelliJ IDEA
-3. Make sure GSON dependency is in `pom.xml`:
+
+2. Verify GSON dependency in `pom.xml`
 ```xml
 <dependency>
     <groupId>com.google.code.gson</groupId>
@@ -42,11 +85,18 @@ git clone https://github.com/SMAung165/Kanji-Flash-Card.git
     <version>2.10.1</version>
 </dependency>
 ```
-4. Run `Main.java`
+
+3. Build and run
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.soemoe.kanjiflashcard.Main"
+```
+
+Or simply open in IntelliJ IDEA and run `Main.java`.
 
 ---
 
-## 💡 Usage
+## Usage
 
 ```
 Select JLPT Level
@@ -70,59 +120,46 @@ Card Number: 1
 4. Kun: {くろ, くろ.い, くろ.ずむ}, On: {コク} 
 Your answer: 2
 Your answer is correct!
-----------------------------------------------
 ```
 
 ---
 
-## 🧠 Concepts Practiced
+## Architecture & Design Decisions
 
-- Abstract classes — `Flashcard` as base template
-- Interfaces — `Reviewable` contract
-- OOP — encapsulation, inheritance, polymorphism
-- JSON loading — GSON with custom field mapping
-- ArrayList — dynamic deck and history management
-- Package structure — real-world `com.soemoe.kanjiflashcard` layout
-- Input validation — `ValidationUtils` shared utility
+### Single Responsibility Principle
+Each class has one clearly defined responsibility:
+- `QuizService` — pure business logic only
+- `QuizUI` — all console I/O only
+- `Main` — orchestrates the two, owns the quiz loop
+- `ValidationUtils` — shared validation logic
 
----
+### Separation of UI and Logic
+`QuizService` contains zero console output. All display logic lives in `QuizUI`. This makes the core logic reusable for future interfaces such as a desktop or Android application without modifying the service layer.
 
-## 📁 Project Structure
+### Interface-Driven Design
+`QuizService` implements `Reviewable`, defining a clear contract for quiz behavior. This allows alternative quiz implementations to be swapped in without changing `Main` or `QuizUI`.
 
-```
-src/main/java/com/soemoe/kanjiflash/
-├── Main.java
-├── models/
-│   ├── Flashcard.java       ← abstract
-│   ├── KanjiCard.java
-│   └── Kanji.java
-├── services/
-│   ├── QuizService.java
-│   └── KanjiDatabase.java
-├── contracts/
-│   └── Reviewable.java      ← interface
-└── utils/
-    ├── JsonLoader.java
-    └── ValidationUtils.java
-
-src/main/resources/
-├── kanji_n1.json
-├── kanji_n2.json
-├── kanji_n3.json
-├── kanji_n4.json
-└── kanji_n5.json
-```
+### Abstract Flashcard Model
+`Flashcard` serves as an abstract base class for all card types. `KanjiCard` extends it with Kanji-specific attributes. Future card types such as `VocabCard` or `GrammarCard` can be added without modifying existing code.
 
 ---
 
-## 🗺️ Future Plans
+## Roadmap
 
-- [ ] Android app version with proper UI/UX
-- [ ] Spaced repetition system (SRS) for smarter review
-- [ ] Save progress between sessions with File I/O
-- [ ] Meaning-based quiz mode (not just reading)
-- [ ] Stroke order diagrams
+- [ ] Android application with JavaFX or Android SDK UI
+- [ ] Spaced Repetition System (SRS) for smarter card scheduling
+- [ ] Persistent progress tracking with File I/O
+- [ ] Meaning-based quiz mode in addition to reading-based
+- [ ] Configurable number of answer choices
 
 ---
 
-> Built independently as part of a Java learning journey — while simultaneously studying for JLPT N2. Two birds, one stone. 🎯
+## Author
+
+**Soe Moe** — Japanese Studies student, Van Lang University, Vietnam  
+GitHub: [@SMAung165](https://github.com/SMAung165)
+
+---
+
+> Built as part of a Java learning journey toward employment in Japan.  
+> Designed, architected, and implemented independently — no generated code.
