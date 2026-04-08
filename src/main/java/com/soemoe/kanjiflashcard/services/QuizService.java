@@ -9,13 +9,12 @@ import java.util.ArrayList;
 
 public class QuizService implements Reviewable {
 
+    private int score;
+    private final int kanjiCount;
     private KanjiCard currentCard;
-    private final ArrayList<KanjiCard> incorrectCards = new ArrayList<>();
     private ArrayList<KanjiCard> quizDeck;
     private final KanjiDatabase kanjiDatabase;
-
-    private final int kanjiCount;
-    private int score;
+    private final ArrayList<KanjiCard> incorrectCards = new ArrayList<>();
 
     //constructors
     public QuizService(String jlptLevel, int kanjiCount) {

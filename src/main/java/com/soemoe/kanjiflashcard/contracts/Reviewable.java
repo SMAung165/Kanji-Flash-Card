@@ -1,6 +1,4 @@
 package com.soemoe.kanjiflashcard.contracts;
-
-
 import com.soemoe.kanjiflashcard.models.KanjiCard;
 
 import java.util.ArrayList;
